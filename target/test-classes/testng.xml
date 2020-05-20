@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="USERS_API Suite">
+   <listeners>
+   <listener class-name="com.qa.ExtentReportListner.ExtentReportListner"></listener>
+   </listeners>
+   <test name="USERS_API_Result">
+  	<classes>
+  	 
+     <class name="com.GETusersapi.testCases.TC001_Get_Single_Users">
+     </class>
+     <!-- class name="getRequest.Tailor_Search"></class-->
+     <!-- class name="getRequest.Categories_Listing"></class-->
+     <!-- class name="getRequest.Explore_More_Categories"></class-->
+     <!-- class name="getRequest.GetMeasurment"></class-->
+     <class name="com.POSTusersapi.testCases.TC002_Post_ALL_Users"></class>
+    </classes>
+    
+  </test>
+</suite> <!-- Suite -->
