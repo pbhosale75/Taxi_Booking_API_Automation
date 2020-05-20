@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 30.168 s <<< FAILURE! - in TestSuite
+getList_Users(com.GETusersapi.testCases.TC001_Get_Single_Users)  Time elapsed: 12.522 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+
+getSingle_Users(com.GETusersapi.testCases.TC001_Get_Single_Users)  Time elapsed: 4.265 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at com.GETusersapi.testCases.TC001_Get_Single_Users.getSingle_Users(TC001_Get_Single_Users.java:47)
+
+post_New_Users(com.POSTusersapi.testCases.TC002_Post_ALL_Users)  Time elapsed: 0.495 s  <<< FAILURE!
+java.net.SocketException: Connection reset
+	at com.POSTusersapi.testCases.TC002_Post_ALL_Users.post_New_Users(TC002_Post_ALL_Users.java:38)
+
