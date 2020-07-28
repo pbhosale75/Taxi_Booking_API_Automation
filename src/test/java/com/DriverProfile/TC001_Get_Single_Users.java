@@ -36,17 +36,17 @@ public class TC001_Get_Single_Users extends TC001_Get_List_Users {
 	  Constant.read_Constant();
 	  RestAssured.baseURI=Constant.user_Single;
 	  httpRequest=RestAssured.given();
-	  response=httpRequest.request(Method.GET);
+	  response=httpRequest.request(Method.GET,"/2");
 	  Thread.sleep(3000);
-	  Helper.CheckResponse_Body();
-	  Helper.response_Code();
-	  Helper.check_StatusLine();
-	  Helper.check_ContentType();
-	  Helper.check_ServerType();
-	  Helper.check_ContentEncoding();
-	  Helper.check_ContentLength();
+	  Helper.verifiy_Response_Body();
+	  Helper.verify_Status_Code();
+	  Helper.verify_StatusLine();
+	  Helper.verify_ContentType();
+	  Helper.verify_ServerType();
+	  Helper.verify_ContentEncoding();
+	  Helper.verify_ContentLength();
 	  //Helper.check_Cookies();
-	  Helper.check_Date();
+	  Helper.verify_Date();
 	  
   }
   @AfterMethod

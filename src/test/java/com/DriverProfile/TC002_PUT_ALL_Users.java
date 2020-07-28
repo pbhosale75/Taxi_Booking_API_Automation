@@ -36,18 +36,18 @@ public class TC002_PUT_ALL_Users extends TestBase{
 	  httpRequest.header("Content-Type","application/json");
 	  httpRequest.body(requstParam.toJSONString());
 	  response=httpRequest.request(Method.PUT,"/2");
-	  Helper.CheckResponse_Body();
+	  Helper.verifiy_Response_Body();
 	  //Assert.assertEquals(response_Body.contains(Fname), true);
 	  //Assert.assertEquals(response_Body.contains(Lname), true);
 	  //Assert.assertEquals(response_Body.contains(SubID), true);
-	  Helper.response_Code();
-	  Helper.checkResponseTime();
-	  Helper.check_StatusLine();
-	  Helper.check_ContentType();
+	  Helper.verify_Status_Code();
+	  Helper.verify_ResponseTime();
+	  Helper.verify_StatusLine();
+	  Helper.verify_ContentType();
 	  //Helper.check_ServerType();
 	  //Helper.check_ContentEncoding();
 	 // Helper.check_Cookies();
-	  Helper.check_Date();
+	  Helper.verify_Date();
  }
  		@DataProvider(name="userdataprovider")
  		String [][] getUsersData()

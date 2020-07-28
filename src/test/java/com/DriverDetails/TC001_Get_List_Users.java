@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.internal.TestResult;
 
 import com.RestUtility.Constant;
+import com.RestUtility.ExcelDataConfig;
 import com.RestUtility.Helper;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -13,6 +14,7 @@ import com.users.Base.TestBase;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import java.io.File;
@@ -37,20 +39,21 @@ public class TC001_Get_List_Users extends TestBase {
 	  //test.log(Status.PASS, "GET API For USERS Verified");
 	  
 	  Constant.read_Constant();
-	  RestAssured.baseURI=Constant.user_List;
+	  //RestAssured.baseURI=Constant.user_List;
 	  httpRequest=RestAssured.given();
-	  response=httpRequest.request(Method.GET,"/1");
+	  response=httpRequest.request(Method.GET,"/2");
 	  //response=RestAssured.get(/);
 	  Thread.sleep(3000);
-	  Helper.CheckResponse_Body();
-	  Helper.response_Code();
-	  Helper.check_StatusLine();
-	  Helper.check_ContentType();
-	  Helper.check_ServerType();
-	  Helper.check_ContentEncoding();
-	  Helper.check_ContentLength();
+	  Helper.verifiy_Response_Body();
+	  //Helper.validate_GET_Json_ResponseBody();
+	  Helper.verify_Status_Code();
+	  Helper.verify_StatusLine();
+	  Helper.verify_ContentType();
+	  //Helper.check_ServerType();
+	  //Helper.check_ContentEncoding();
+	  Helper.verify_ContentLength();
 	  //Helper.check_Cookies();
-	  Helper.check_Date();
+	  Helper.verify_Date();
 	  
   }
   @AfterMethod
