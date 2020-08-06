@@ -1,366 +1,162 @@
-2020-05-19 20:30:20,512 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:30:21,226 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:56 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:31:15,314 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:31:15,959 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:56 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:34:45,331 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:34:52,481 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:34:52,513 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:34:52,516 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:34:52,516 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:34:52,517 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:34:52,517 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:34:52,517 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:34:52,517 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:34:52,518 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:34:52,518 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:34:52,518 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:34:52,518 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:34:52,518 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:34:52,519 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:34:52,525 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:56 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:36:06,707 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:36:07,274 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:56 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:40:15,465 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:40:22,682 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:40:22,715 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:40:22,716 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:40:22,716 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:40:22,718 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:40:22,718 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:40:22,718 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:40:22,718 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:40:22,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:40:22,727 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:56 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:46:33,614 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:46:39,966 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:46:39,996 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:46:39,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:46:39,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:46:39,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:46:39,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:46:40,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:46:40,001 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:46:40,009 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:51:41,403 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:51:42,130 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:53:23,103 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:53:29,736 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:53:29,764 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:53:29,767 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:53:29,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:53:29,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:53:29,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:53:29,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:53:29,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:53:29,769 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:53:29,769 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:53:29,769 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:53:29,769 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:53:29,769 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:53:29,770 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:53:29,776 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 20:55:51,547 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 20:55:57,783 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:55:57,820 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:55:57,822 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:55:57,823 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:55:57,823 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:55:57,823 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:55:57,823 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:55:57,824 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:55:57,831 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 20:55:57,841 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:31 - **************Started TC001_Get_Single_Users***************
-2020-05-19 20:56:01,998 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 20:56:01,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
-2020-05-19 20:56:01,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 20:56:01,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 20:56:01,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 20:56:01,999 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 20:56:02,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 20:56:02,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 20:56:02,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 20:56:02,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>cloudflare
-2020-05-19 20:56:02,000 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 20:56:02,001 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ContentEncoding==>gzip
-2020-05-19 20:56:02,001 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:135 - **************Checking Server Type**************
-2020-05-19 20:56:02,001 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:138 - ContentLength==>null
-2020-05-19 20:56:02,004 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 21:03:31,862 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:03:36,928 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 21:03:36,960 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:03:36,965 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 21:03:36,966 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 21:03:36,966 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 21:03:36,966 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 21:03:36,967 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 21:03:36,967 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 21:03:36,968 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 21:03:36,968 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>null
-2020-05-19 21:03:36,980 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 21:03:36,996 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:31 - **************Started TC001_Get_Single_Users***************
-2020-05-19 21:03:40,024 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:11 - **************Checking Response Body**************
-2020-05-19 21:03:40,024 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - Response Body==>{
-  "firstname": "Praniya",
-  "subjectID": "3",
-  "lastname": "Bhosale",
-  "id": 2
-}
-2020-05-19 21:03:40,025 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:30 - **************Checking Status Code**************
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:33 - Status Code==>200
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:82 - **************Checking Status Line**************
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:85 - Status line==>HTTP/1.1 200 OK
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - **************Checking Content Type**************
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:108 - Content Type==>application/json; charset=utf-8
-2020-05-19 21:03:40,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Server Type**************
-2020-05-19 21:03:40,027 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - ServerType==>null
-2020-05-19 21:03:40,030 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 21:06:40,859 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:06:45,806 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:13 - **************Checking Response Body**************
-2020-05-19 21:06:45,842 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:17 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:06:46,547 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:36 - **************Checking Status Code**************
-2020-05-19 21:06:46,548 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:39 - Status Code==>200
-2020-05-19 21:06:46,548 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:88 - **************Checking Status Line**************
-2020-05-19 21:06:46,548 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - Status line==>HTTP/1.1 200 OK
-2020-05-19 21:06:46,549 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:111 - **************Checking Content Type**************
-2020-05-19 21:06:46,549 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:114 - Content Type==>application/json; charset=utf-8
-2020-05-19 21:06:46,549 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:121 - **************Checking Server Type**************
-2020-05-19 21:06:46,550 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:124 - ServerType==>null
-2020-05-19 21:06:46,558 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 21:06:46,574 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:31 - **************Started TC001_Get_Single_Users***************
-2020-05-19 21:06:49,607 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:13 - **************Checking Response Body**************
-2020-05-19 21:06:49,608 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:17 - Response Body==>{
-  "firstname": "Praniya",
-  "subjectID": "3",
-  "lastname": "Bhosale",
-  "id": 2
-}
-2020-05-19 21:06:49,635 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:54 - ***************Finished TC001_GET_Single_USERS************************
-2020-05-19 21:12:02,553 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:12:07,484 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-19 21:12:07,521 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:12:08,153 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 21:20:46,935 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:20:51,873 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-19 21:20:51,907 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:20:52,760 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:39 - **************Checking Status Code**************
-2020-05-19 21:20:52,760 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:42 - Status Code==>200
-2020-05-19 21:20:52,761 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - **************Checking Status Line**************
-2020-05-19 21:20:52,762 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:94 - Status line==>HTTP/1.1 200 OK
-2020-05-19 21:20:52,763 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:114 - **************Checking Content Type**************
-2020-05-19 21:20:52,764 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:117 - Content Type==>application/json; charset=utf-8
-2020-05-19 21:20:52,765 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:124 - **************Checking Server Type**************
-2020-05-19 21:20:52,767 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:127 - ServerType==>null
-2020-05-19 21:20:52,777 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 21:23:44,890 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:23:52,778 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-19 21:23:52,815 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:23:54,079 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-19 21:26:21,757 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-19 21:26:29,647 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-19 21:26:29,682 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-19 21:26:31,049 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:40 - **************Checking Status Code**************
-2020-05-19 21:26:31,052 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - Status Code==>200
-2020-05-19 21:26:31,054 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:92 - **************Checking Status Line**************
-2020-05-19 21:26:31,055 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:95 - Status line==>HTTP/1.1 200 OK
-2020-05-19 21:26:31,057 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:115 - **************Checking Content Type**************
-2020-05-19 21:26:31,059 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - Content Type==>application/json; charset=utf-8
-2020-05-19 21:26:31,059 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:125 - **************Checking Server Type**************
-2020-05-19 21:26:31,061 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - ServerType==>null
-2020-05-19 21:26:31,105 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:06:44,437 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:06:50,355 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:07:16,541 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:07:22,399 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:08:02,884 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:08:08,893 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:09:08,407 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:09:14,132 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:09:56,663 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:10:02,213 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-20 09:10:02,255 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-20 09:10:02,983 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Status Code**************
-2020-05-20 09:10:02,983 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Status Code==>200
-2020-05-20 09:10:02,984 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:95 - **************Checking Status Line**************
-2020-05-20 09:10:02,984 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:98 - Status line==>HTTP/1.1 200 OK
-2020-05-20 09:10:02,984 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:118 - **************Checking Content Type**************
-2020-05-20 09:10:02,985 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:121 - Content Type==>application/json; charset=utf-8
-2020-05-20 09:10:02,985 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:128 - **************Checking Server Type**************
-2020-05-20 09:10:02,985 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:131 - ServerType==>null
-2020-05-20 09:10:02,998 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 09:10:52,101 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 09:10:56,821 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-20 09:10:56,848 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-20 09:10:57,479 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 13:29:28,275 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 13:29:34,070 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-20 13:29:34,097 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": 1,
-  "id": 1
-}
-2020-05-20 13:29:34,859 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 13:32:09,753 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 13:32:14,755 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:15 - **************Checking Response Body**************
-2020-05-20 13:32:14,794 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:19 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": "1",
-  "id": 1
-}
-2020-05-20 13:32:15,472 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - **************Checking Status Code**************
-2020-05-20 13:32:15,472 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Status Code==>200
-2020-05-20 13:32:15,473 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:98 - **************Checking Status Line**************
-2020-05-20 13:32:15,473 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:101 - Status line==>HTTP/1.1 200 OK
-2020-05-20 13:32:15,473 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:121 - **************Checking Content Type**************
-2020-05-20 13:32:15,474 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:124 - Content Type==>application/json; charset=utf-8
-2020-05-20 13:32:15,474 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:131 - **************Checking Server Type**************
-2020-05-20 13:32:15,474 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:134 - ServerType==>null
-2020-05-20 13:32:15,484 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 13:38:35,094 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 13:38:41,983 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:17 - **************Checking Response Body**************
-2020-05-20 13:38:42,028 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:21 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": "1",
-  "id": 1
-}
-2020-05-20 13:38:43,763 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:55 - **************Checking Status Code**************
-2020-05-20 13:38:43,764 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - Status Code==>200
-2020-05-20 13:38:43,765 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:107 - **************Checking Status Line**************
-2020-05-20 13:38:43,766 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:110 - Status line==>HTTP/1.1 200 OK
-2020-05-20 13:38:43,766 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:130 - **************Checking Content Type**************
-2020-05-20 13:38:43,767 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:133 - Content Type==>application/json; charset=utf-8
-2020-05-20 13:38:43,767 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:140 - **************Checking Server Type**************
-2020-05-20 13:38:43,768 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:143 - ServerType==>null
-2020-05-20 13:38:43,795 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:53:31,603 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:53:38,137 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:55:35,498 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:55:41,416 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:56:28,542 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:56:34,376 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:58:05,273 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:58:11,166 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:58:46,628 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:58:52,573 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:59:12,717 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:59:19,351 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 16:59:52,113 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 16:59:57,885 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 17:00:53,653 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 17:00:59,416 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-05-20 17:01:41,026 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:34 - **************Started TC001_Get_List_Users***************
-2020-05-20 17:01:46,036 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:17 - **************Checking Response Body**************
-2020-05-20 17:01:46,084 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:21 - Response Body==>{
-  "firstname": "prakash",
-  "lastname": "bhosale",
-  "subjectID": "1",
-  "id": 1
-}
-2020-05-20 17:01:46,933 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - **************Checking Status Code**************
-2020-05-20 17:01:46,933 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:52 - Status Code==>200
-2020-05-20 17:01:46,934 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:101 - **************Checking Status Line**************
-2020-05-20 17:01:46,934 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:104 - Status line==>HTTP/1.1 200 OK
-2020-05-20 17:01:46,934 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:124 - **************Checking Content Type**************
-2020-05-20 17:01:46,934 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:127 - Content Type==>application/json; charset=utf-8
-2020-05-20 17:01:46,935 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:134 - **************Checking Server Type**************
-2020-05-20 17:01:46,935 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:137 - ServerType==>null
-2020-05-20 17:01:46,945 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC001_GET_List_USERS************************
-2020-07-28 19:30:47,313 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Started TC001_Get_Users_Notification***************
-2020-07-28 19:30:58,813 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
-2020-07-28 19:30:58,852 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>[{"userId":"Admin123","notificationId":"13333ace-b8bd-4319-a45a-22e9545f29c9","notificationStatus":"True","shortDesc":"Get Notification User for Taxi","longDesc":"Get Notification User for Taxi and Booking Ride","createdBy":"Pbhosale","createdOn":"2020-07-08T15:14:13.560Z"}]
-2020-07-28 19:30:59,033 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
-2020-07-28 19:30:59,034 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
-2020-07-28 19:30:59,035 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - **************Checking Status Line**************
-2020-07-28 19:30:59,035 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:162 - Status line==>HTTP/1.1 200 
-2020-07-28 19:30:59,036 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:195 - **************Checking Content Type**************
-2020-07-28 19:30:59,036 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:198 - Content Type==>application/json
-2020-07-28 19:30:59,037 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:266 - **************Checking Server Date Time**************
-2020-07-28 19:30:59,044 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:269 - Server Response Time==>0
-2020-07-28 19:30:59,049 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
-2020-07-28 19:30:59,057 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_ALL_Users***************
-2020-07-28 19:30:59,272 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
-2020-07-28 19:30:59,273 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
-2020-07-28 19:30:59,274 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
-2020-07-28 19:30:59,276 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
-2020-07-28 19:30:59,277 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:144 - **************Checking Response Time**************
-2020-07-28 19:30:59,277 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:147 - Response Time==>177
-2020-07-28 19:30:59,278 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - **************Checking Status Line**************
-2020-07-28 19:30:59,278 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:162 - Status line==>HTTP/1.1 200 
-2020-07-28 19:30:59,279 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:195 - **************Checking Content Type**************
-2020-07-28 19:30:59,279 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:198 - Content Type==>text/plain;charset=UTF-8
-2020-07-28 19:30:59,280 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:266 - **************Checking Server Date Time**************
-2020-07-28 19:30:59,280 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:269 - Server Response Time==>0
-2020-07-28 19:30:59,285 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
-2020-07-28 19:30:59,294 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC003_PUT_Request_ALL_Users***************
-2020-07-28 19:30:59,385 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
-2020-07-28 19:30:59,386 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>{"timestamp":"2020-07-28T14:00:59.375+00:00","status":405,"error":"Method Not Allowed","message":"","path":"/api/notification"}
-2020-07-28 19:30:59,387 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
-2020-07-28 19:30:59,388 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>405
-2020-07-28 19:30:59,389 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:144 - **************Checking Response Time**************
-2020-07-28 19:30:59,390 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:147 - Response Time==>66
-2020-07-28 19:30:59,391 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - **************Checking Status Line**************
-2020-07-28 19:30:59,392 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:162 - Status line==>HTTP/1.1 405 
-2020-07-28 19:30:59,393 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:195 - **************Checking Content Type**************
-2020-07-28 19:30:59,394 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:198 - Content Type==>application/json
-2020-07-28 19:30:59,395 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:266 - **************Checking Server Date Time**************
-2020-07-28 19:30:59,396 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:269 - Server Response Time==>0
-2020-07-28 19:30:59,405 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
+2020-08-04 16:25:28,379 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Started TC001_Get_Users_Notification***************
+2020-08-04 16:25:33,442 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:25:33,460 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>[{"userId":"Admin123","notificationId":"13333ace-b8bd-4319-a45a-22e9545f29c9","notificationStatus":"True","shortDesc":"Get Notification User for Taxi","longDesc":"Get Notification User for Taxi and Booking Ride","createdBy":"Pbhosale","createdOn":"2020-08-04T10:53:50.677Z"}]
+2020-08-04 16:25:33,539 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:25:33,539 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:25:33,540 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:25:33,540 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:25:33,540 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:25:33,541 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>application/json
+2020-08-04 16:25:33,541 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:25:33,544 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:25:33,546 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
+2020-08-04 16:25:33,550 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_ALL_Users***************
+2020-08-04 16:25:33,639 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:25:33,640 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:25:33,640 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:25:33,642 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:25:33,642 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:25:33,642 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>76
+2020-08-04 16:25:33,642 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:25:33,642 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:25:33,643 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:25:33,643 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:25:33,643 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:25:33,643 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:25:33,645 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
+2020-08-04 16:25:33,648 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC003_PUT_Request_ALL_Users***************
+2020-08-04 16:25:33,702 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:25:33,703 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:25:33,704 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:25:33,704 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:25:33,704 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:25:33,705 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>47
+2020-08-04 16:25:33,705 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:25:33,705 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:25:33,705 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:25:33,706 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:25:33,706 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:25:33,706 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:25:33,709 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_List_USERS************************
+2020-08-04 16:32:28,228 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Started TC001_Get_Users_Notification***************
+2020-08-04 16:32:33,519 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,541 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>[{"userId":"Admin123","notificationId":"13333ace-b8bd-4319-a45a-22e9545f29c9","notificationStatus":"True","shortDesc":"Get Notification User for Taxi","longDesc":"Get Notification User for Taxi and Booking Ride","createdBy":"Pbhosale","createdOn":"2020-08-04T10:55:33.668Z"}]
+2020-08-04 16:32:33,622 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,623 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,623 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,623 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,623 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,624 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>application/json
+2020-08-04 16:32:33,624 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,626 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,629 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-04 16:32:33,633 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_ALL_Users***************
+2020-08-04 16:32:33,718 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:32:33,719 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>72
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,726 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,727 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:32:33,727 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,727 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,728 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-04 16:32:33,731 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC003_PUT_Request_ALL_Users***************
+2020-08-04 16:32:33,789 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,790 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:32:33,790 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,790 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,790 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:32:33,791 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>50
+2020-08-04 16:32:33,791 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,791 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,792 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,792 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:32:33,792 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,792 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,794 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-04 16:32:33,803 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_ALL_Users***************
+2020-08-04 16:32:33,850 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,850 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>40
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,851 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,852 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:32:33,852 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,852 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,854 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:66 - ***************Finished TC002_POST_USERS_NOTIFICATION************************
+2020-08-04 16:32:33,861 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_ALL_Users***************
+2020-08-04 16:32:33,910 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,911 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:32:33,911 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,911 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,911 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:32:33,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>44
+2020-08-04 16:32:33,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:32:33,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,914 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC003_PUT_USERS_NOTIFICATION************************
+2020-08-04 16:32:33,916 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC003_PUT_Request_ALL_Users***************
+2020-08-04 16:32:33,969 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>46
+2020-08-04 16:32:33,970 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:32:33,971 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:32:33,971 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:32:33,971 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:32:33,971 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:32:33,971 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:32:33,973 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC003_PUT_USERS_NOTIFICATION************************
+2020-08-04 16:35:14,053 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Started TC001_Get_Users_Notification***************
+2020-08-04 16:35:19,815 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:35:19,835 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>[{"userId":"Admin123","notificationId":"13333ace-b8bd-4319-a45a-22e9545f29c9","notificationStatus":"True","shortDesc":"Get Notification User for Taxi","longDesc":"Get Notification User for Taxi and Booking Ride","createdBy":"Pbhosale","createdOn":"2020-08-04T11:02:33.932Z"}]
+2020-08-04 16:35:19,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:35:19,912 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:35:19,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:35:19,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:35:19,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:35:19,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>application/json
+2020-08-04 16:35:19,913 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:35:19,916 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:35:19,919 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:67 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-04 16:35:19,929 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:37 - **************Started TC002_POST_Request_Users_NOTIFICATION***************
+2020-08-04 16:35:20,013 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:35:20,013 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:35:20,013 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:35:20,014 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:35:20,015 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:35:20,015 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>71
+2020-08-04 16:35:20,015 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:35:20,015 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:35:20,015 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:35:20,016 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:35:20,016 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:35:20,016 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:35:20,018 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:66 - ***************Finished TC002_POST_USERS_NOTIFICATION************************
+2020-08-04 16:35:20,025 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC003_PUT_Request_ALL_Users***************
+2020-08-04 16:35:20,073 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:41 - **************Checking Response Body**************
+2020-08-04 16:35:20,074 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:46 - Response Body==>Notification successfully saved into table
+2020-08-04 16:35:20,074 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:102 - **************Checking Status Code**************
+2020-08-04 16:35:20,074 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:105 - Status Code==>200
+2020-08-04 16:35:20,075 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Response Time**************
+2020-08-04 16:35:20,075 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Response Time==>41
+2020-08-04 16:35:20,075 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:172 - **************Checking Status Line**************
+2020-08-04 16:35:20,075 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:175 - Status line==>HTTP/1.1 200 
+2020-08-04 16:35:20,075 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:208 - **************Checking Content Type**************
+2020-08-04 16:35:20,076 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:211 - Content Type==>text/plain;charset=UTF-8
+2020-08-04 16:35:20,076 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:279 - **************Checking Server Date Time**************
+2020-08-04 16:35:20,076 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:282 - Server Response Time==>0
+2020-08-04 16:35:20,078 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:58 - ***************Finished TC003_PUT_USERS_NOTIFICATION************************

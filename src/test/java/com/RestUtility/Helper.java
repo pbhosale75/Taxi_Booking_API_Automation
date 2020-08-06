@@ -132,10 +132,23 @@ public class Helper extends TestBase{
 		  //Assert.assertFalse(false);
 		  test=extent.createTest("“Invalid Request Found”: “OPERATION_Un_SUCCESS”,“404 for (Not Found content)”: “Operation completed Un_successfully”");
 	  } 
+	  else if(status_Code==405)
+	  {
+		  System.out.println("Method Not Allowed");
+		  //test=extent.createTest("checkStatus_Code", "Not Found");
+		  String str=String.valueOf(status_Code);
+		  test.createNode(str);
+		  Assert.assertEquals(status_Code, 405,"Method Not Allowed");
+		  //Assert.assertFalse(false);
+		  test=extent.createTest("“Method Not Allowed”: “OPERATION_Un_SUCCESS”,“405 for (Not Found content)”: “Operation completed Un_successfully”");
+	  } 
 	  else if(status_Code==500){
 			Assert.assertEquals(500, status_Code, "Internal Server Error,duplicate id");
 			test=extent.createTest("“Internal Server Error,duplicate id Found”: “OPERATION_Un_SUCCESS”,“500 for (Duplicate ID content)”: “Operation completed Un_successfully”");
 			}
+	  else {
+		System.out.println("Rest of the Code not Present");
+	}
 	  
   }
 

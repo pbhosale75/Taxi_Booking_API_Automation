@@ -39,7 +39,7 @@ public class TC005_Delete_Notification_Details extends TestBase{
 	 @BeforeClass
 	    public static void setupURL()
 	    {
-		 
+		 logger.info("**************Started TC005_Delete_Users_Notification***************");
 	        // here we setup the default URL and API base path to use throughout the tests
 	        RestAssured.baseURI = "http://localhost:8088";
 	        RestAssured.basePath = "/api/notification/";
@@ -89,7 +89,8 @@ public class TC005_Delete_Notification_Details extends TestBase{
                                 .pathParam("userID",Uid)
                                 .pathParam("notificationId", notification_ID)
                                 .when()
-                                .get("/{userID}/{notificationId}","/delete");
+                                .delete("/{userID}/{notificationId}/delete");
+                                //.get("/{userID}/{notificationId}","/delete/");
                                 
           						
       } catch (Exception e) {
@@ -102,7 +103,7 @@ public class TC005_Delete_Notification_Details extends TestBase{
 
       Assert.assertEquals(200, response.getStatusCode());
   }
-/* @AfterMethod
+ @AfterMethod
  public void tearDown(ITestResult result) {
 	  logger.info("***************Finished TC001_GET_List_USERS************************");
 	  if(result.getStatus()==ITestResult.FAILURE)
@@ -121,14 +122,14 @@ public class TC005_Delete_Notification_Details extends TestBase{
 		  //test.log(Status.PASS, "TEST CASE IS PASSED " +result.getStatus()+ "Status Name", ExtentColor.ORANGE);
 		  test.log(Status.INFO, "My Test Cases Get Info " +result.getStatus());
 	  }
-	  extent.flush();
+	  //extent.flush();
  }
 	
-	/*  @AfterTest
+	@AfterTest
 	  void endReport() {
 		  
 		  extent.flush();
-		  }*/
+		  }
  
 
 

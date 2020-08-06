@@ -6,14 +6,12 @@
    </listeners>
    <test name="USERS_API_Result">
   	<classes>
-  	 
-     <class name="com.GETusersapi.testCases.TC001_Get_Single_Users">
-     </class>
-     <!-- class name="getRequest.Tailor_Search"></class-->
-     <!-- class name="getRequest.Categories_Listing"></class-->
-     <!-- class name="getRequest.Explore_More_Categories"></class-->
-     <!-- class name="getRequest.GetMeasurment"></class-->
-     <class name="com.POSTusersapi.testCases.TC002_Post_ALL_Users"></class>
+  	 <class name="com.NotificationDetails.TC001_Get_Notification_Users"></class>
+     <class name="com.NotificationDetails.TC002_Post_Notification_Users"></class>
+     <class name="com.NotificationDetails.TC003_PUT_Notification_Users"></class>
+     <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"></class>
+     <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"></class>
+     
     </classes>
     
   </test>

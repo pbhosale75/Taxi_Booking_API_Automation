@@ -23,7 +23,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class TC003_PATCH_Notification_Users extends TC002_Post_Notification_Users{
+public class TC003_PUT_Notification_Users extends TestBase{
 	@Test()
  	 public static void put_New_Users() {
 	 logger.info("**************Started TC003_PUT_Request_ALL_Users***************");
@@ -39,7 +39,7 @@ public class TC003_PATCH_Notification_Users extends TC002_Post_Notification_User
 	  requstParam.put(excel.getCellData("Patch_Req", 5, 0),excel.getCellData("Patch_Req", 5, 1));
 	  requstParam.put(excel.getCellData("Patch_Req", 6, 0),excel.getCellData("Patch_Req", 6, 1));
 	  httpRequest.body(requstParam.toJSONString());
-	  response=httpRequest.patch(Constant.user_notification_Post_Resource);
+	  response=httpRequest.post(Constant.user_notification_Post_Resource);
 	  Helper.verifiy_Response_Body();
 	  //Assert.assertEquals(response_Body.contains(Fname), true);
 	  //Assert.assertEquals(response_Body.contains(Lname), true);
@@ -55,7 +55,7 @@ public class TC003_PATCH_Notification_Users extends TC002_Post_Notification_User
  }
  		@AfterMethod
  		  public void tearDown(ITestResult result) {
- 			  logger.info("***************Finished TC001_GET_ALL_USERS************************");
+ 			  logger.info("***************Finished TC003_PUT_USERS_NOTIFICATION************************");
  			  if(result.getStatus()==ITestResult.FAILURE)
  			  {
  				  test.log(Status.FAIL, "TEST CASE FAILED IS" +result.getName());//To name in extent report

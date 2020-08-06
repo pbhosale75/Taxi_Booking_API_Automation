@@ -33,7 +33,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
-public class TC001_Get_Notification_Users extends TC003_PATCH_Notification_Users {
+public class TC001_Get_Notification_Users extends TestBase {
  
   @Test()
   public static void getList_Users() throws InterruptedException, JsonParseException, JsonMappingException, IOException, ParseException, JSONException{
@@ -64,7 +64,7 @@ public class TC001_Get_Notification_Users extends TC003_PATCH_Notification_Users
   }
   @AfterMethod
   public void tearDown(ITestResult result) {
-	  logger.info("***************Finished TC001_GET_List_USERS************************");
+	  logger.info("***************Finished TC001_GET_USER_NOTIFICATION************************");
 	  if(result.getStatus()==ITestResult.FAILURE)
 	  {
 		  //test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+ "FAILED ", ExtentColor.RED));

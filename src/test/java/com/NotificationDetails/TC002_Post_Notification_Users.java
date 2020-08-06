@@ -34,7 +34,7 @@ public class TC002_Post_Notification_Users extends TestBase{
 	@Test()
  	 public static void post_New_Users() throws JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
 	 
-	 logger.info("**************Started TC002_POST_Request_ALL_Users***************");
+	 logger.info("**************Started TC002_POST_Request_Users_NOTIFICATION***************");
 	 Constant.read_Constant();
 	 RestAssured.baseURI=Constant.user_Notification_Post;
 	 httpRequest=RestAssured.given();
@@ -63,7 +63,7 @@ public class TC002_Post_Notification_Users extends TestBase{
 	}
  	@AfterMethod
  	public void tearDown(ITestResult result) {
- 		logger.info("***************Finished TC001_GET_ALL_USERS************************");
+ 		logger.info("***************Finished TC002_POST_USERS_NOTIFICATION************************");
 		  if(result.getStatus()==ITestResult.FAILURE)
 		  {
 			  test.log(Status.FAIL, "TEST CASE FAILED IS" +result.getName());//To name in extent report

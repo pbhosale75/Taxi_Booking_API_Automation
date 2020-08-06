@@ -39,7 +39,7 @@ public class TC004_Get_One_Notification_Details extends TestBase{
 	 @BeforeClass
 	    public static void setupURL()
 	    {
-		 
+		 logger.info("**************Started TC004_Get_One_UserNotification_Detials***************");
 	        // here we setup the default URL and API base path to use throughout the tests
 	        RestAssured.baseURI = "http://localhost:8088";
 	        RestAssured.basePath = "/api/notification/";
