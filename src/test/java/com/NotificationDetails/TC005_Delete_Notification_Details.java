@@ -39,7 +39,7 @@ public class TC005_Delete_Notification_Details extends TestBase{
 	 @BeforeClass
 	    public static void setupURL()
 	    {
-		 logger.info("**************Started TC005_Delete_Users_Notification***************");
+		 logger.info("**************Started TC005_Delete_Users_Notification_Details***************");
 	        // here we setup the default URL and API base path to use throughout the tests
 	        RestAssured.baseURI = "http://localhost:8088";
 	        RestAssured.basePath = "/api/notification/";
