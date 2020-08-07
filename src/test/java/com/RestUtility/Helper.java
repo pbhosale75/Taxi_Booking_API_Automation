@@ -122,6 +122,36 @@ public class Helper extends TestBase{
 		  Assert.assertEquals(status_Code, 201);
 		 
 	  }
+	  else if(status_Code==400)
+	  {
+		  System.out.println("Bad Request");
+		  //test=extent.createTest("checkStatus_Code", "Not Found");
+		  String str=String.valueOf(status_Code);
+		  test.createNode(str);
+		  Assert.assertEquals(status_Code, 400,"Bad Request Found");
+		  //Assert.assertFalse(false);
+		  test=extent.createTest("“Bad Request Found”: “OPERATION_Un_SUCCESS”,“400 for (Bad Request Found content)”: “Operation completed Un_successfully”");
+	  } 
+	  else if(status_Code==401)
+	  {
+		  System.out.println("Unauthorized");
+		  //test=extent.createTest("checkStatus_Code", "Not Found");
+		  String str=String.valueOf(status_Code);
+		  test.createNode(str);
+		  Assert.assertEquals(status_Code, 400,"Unauthorized Request Found");
+		  //Assert.assertFalse(false);
+		  test=extent.createTest("“Unauthorized Request Found”: “OPERATION_Un_SUCCESS”,“401 for (Unauthorized Request Found content)”: “Operation completed Un_successfully”");
+	  } 
+	  else if(status_Code==403)
+	  {
+		  System.out.println("Forbidden");
+		  //test=extent.createTest("checkStatus_Code", "Not Found");
+		  String str=String.valueOf(status_Code);
+		  test.createNode(str);
+		  Assert.assertEquals(status_Code, 403,"Forbidden Request Found");
+		  //Assert.assertFalse(false);
+		  test=extent.createTest("“Forbidden Request Found”: “OPERATION_Un_SUCCESS”,“403 for (Forbidden Found)”: “Operation completed Un_successfully”");
+	  } 
 	  else if(status_Code==404)
 	  {
 		  System.out.println("Not Found");
