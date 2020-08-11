@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [USERS_API Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListner.ExtentReportListner"/>
-  </listeners>
-  <test name="USERS_API_Result">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.NotificationDetails.TC001_Get_Notification_Users"/>
-      <class name="com.NotificationDetails.TC002_Post_Notification_Users"/>
-      <class name="com.NotificationDetails.TC003_PUT_Notification_Users"/>
+      <class name="com.DriverProfile.TC002_Post_DriverVerify"/>
     </classes>
-  </test> <!-- USERS_API_Result -->
-</suite> <!-- Failed suite [USERS_API Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

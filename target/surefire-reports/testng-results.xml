@@ -1,366 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="5" passed="2">
+<testng-results skipped="0" failed="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="USERS_API Suite" duration-ms="24582" started-at="2020-05-19T18:09:57 IST" finished-at="2020-05-19T18:10:22 IST">
+  <suite name="USERS_API Suite" duration-ms="21961" started-at="2020-08-11T06:16:32Z" finished-at="2020-08-11T06:16:54Z">
     <groups>
     </groups>
-    <test name="USERS_API_Result" duration-ms="24582" started-at="2020-05-19T18:09:57 IST" finished-at="2020-05-19T18:10:22 IST">
-      <class name="com.GETusersapi.testCases.TC001_Get_Single_Users">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="setup" is-config="true" duration-ms="677" started-at="2020-05-19T18:09:57 IST" finished-at="2020-05-19T18:09:58 IST">
+    <test name="USERS_API_Result" duration-ms="21961" started-at="2020-08-11T06:16:32Z" finished-at="2020-08-11T06:16:54Z">
+      <class name="com.NotificationDetails.TC001_Get_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@30c15d8b]" name="setup" is-config="true" duration-ms="400" started-at="2020-08-11T11:46:32Z" finished-at="2020-08-11T11:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="getList_Users()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="getList_Users" duration-ms="12486" started-at="2020-05-19T18:09:58 IST" finished-at="2020-05-19T18:10:10 IST">
-          <exception class="java.lang.NumberFormatException">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: null
-at java.lang.Integer.parseInt(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at com.users.RestUtility.Helper.check_ContentLength(Helper.java:147)
-at com.GETusersapi.testCases.TC001_Get_List_Users.getList_Users(TC001_Get_List_Users.java:49)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
+        <test-method status="PASS" signature="getList_Users()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@30c15d8b]" name="getList_Users" duration-ms="7176" started-at="2020-08-11T11:46:33Z" finished-at="2020-08-11T11:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getList_Users -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="tearDown" is-config="true" duration-ms="30" started-at="2020-05-19T18:10:10 IST" finished-at="2020-05-19T18:10:10 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@30c15d8b]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getList_Users status=FAILURE method=TC001_Get_List_Users.getList_Users()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33] output={null}]]]>
+                <![CDATA[[TestResult name=getList_Users status=SUCCESS method=TC001_Get_Notification_Users.getList_Users()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@30c15d8b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="getSingle_Users()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="getSingle_Users" duration-ms="4259" started-at="2020-05-19T18:10:10 IST" finished-at="2020-05-19T18:10:15 IST">
-          <exception class="java.lang.NumberFormatException">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: null
-at java.lang.Integer.parseInt(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at com.users.RestUtility.Helper.check_ContentLength(Helper.java:147)
-at com.GETusersapi.testCases.TC001_Get_Single_Users.getSingle_Users(TC001_Get_Single_Users.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingle_Users -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="tearDown" is-config="true" duration-ms="9" started-at="2020-05-19T18:10:15 IST" finished-at="2020-05-19T18:10:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=getSingle_Users status=FAILURE method=TC001_Get_Single_Users.getSingle_Users()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.GETusersapi.testCases.TC001_Get_Single_Users@13a5fe33]" name="endReport" is-config="true" duration-ms="2553" started-at="2020-05-19T18:10:16 IST" finished-at="2020-05-19T18:10:19 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@30c15d8b]" name="endReport" is-config="true" duration-ms="630" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.GETusersapi.testCases.TC001_Get_Single_Users -->
-      <class name="com.POSTusersapi.testCases.TC002_Post_ALL_Users">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="setup" is-config="true" duration-ms="20" started-at="2020-05-19T18:10:15 IST" finished-at="2020-05-19T18:10:15 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@411f53a0]" name="endReport" is-config="true" duration-ms="150" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@5e0e82ae]" name="endReport" is-config="true" duration-ms="220" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@6771beb3]" name="endReport" is-config="true" duration-ms="216" started-at="2020-08-11T11:46:54Z" finished-at="2020-08-11T11:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="endReport" is-config="true" duration-ms="171" started-at="2020-08-11T11:46:54Z" finished-at="2020-08-11T11:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="endReport" is-config="true" duration-ms="207" started-at="2020-08-11T11:46:54Z" finished-at="2020-08-11T11:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.NotificationDetails.TC001_Get_Notification_Users -->
+      <class name="com.NotificationDetails.TC003_PUT_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@6771beb3]" name="setup" is-config="true" duration-ms="10" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="post_New_Users" duration-ms="558" started-at="2020-05-19T18:10:15 IST" data-provider="userdataprovider" finished-at="2020-05-19T18:10:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pramod]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gaikwad]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="put_New_Users()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@6771beb3]" name="put_New_Users" duration-ms="82" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- post_New_Users -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-05-19T18:10:15 IST" finished-at="2020-05-19T18:10:15 IST">
+        </test-method> <!-- put_New_Users -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@6771beb3]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=post_New_Users status=SUCCESS method=TC002_Post_ALL_Users.post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc] output={null}]]]>
+                <![CDATA[[TestResult name=put_New_Users status=SUCCESS method=TC003_PUT_Notification_Users.put_New_Users()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@6771beb3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="post_New_Users" duration-ms="544" started-at="2020-05-19T18:10:15 IST" data-provider="userdataprovider" finished-at="2020-05-19T18:10:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bushan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rathod]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
+      </class> <!-- com.NotificationDetails.TC003_PUT_Notification_Users -->
+      <class name="com.NotificationDetails.TC002_Post_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@5e0e82ae]" name="setup" is-config="true" duration-ms="5" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="post_New_Users()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@5e0e82ae]" name="post_New_Users" duration-ms="165" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post_New_Users -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-05-19T18:10:16 IST" finished-at="2020-05-19T18:10:16 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@5e0e82ae]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=post_New_Users status=SUCCESS method=TC002_Post_ALL_Users.post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc] output={null}]]]>
+                <![CDATA[[TestResult name=post_New_Users status=SUCCESS method=TC002_Post_Notification_Users.post_New_Users()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@5e0e82ae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="post_New_Users" duration-ms="491" started-at="2020-05-19T18:10:16 IST" data-provider="userdataprovider" finished-at="2020-05-19T18:10:16 IST">
+      </class> <!-- com.NotificationDetails.TC002_Post_Notification_Users -->
+      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="setup" is-config="true" duration-ms="8" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="callNotificationAPI" duration-ms="3065" started-at="2020-08-11T11:46:40Z" finished-at="2020-08-11T11:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callNotificationAPI -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-08-11T11:46:43Z" finished-at="2020-08-11T11:46:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Pravin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Salunke]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
+                <![CDATA[[TestResult name=callNotificationAPI status=SUCCESS method=TC004_Get_One_Notification_Details.callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.net.SocketException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="retrieveNotificationDetails" duration-ms="3073" started-at="2020-08-11T11:46:43Z" finished-at="2020-08-11T11:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveNotificationDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-11T11:46:46Z" finished-at="2020-08-11T11:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=retrieveNotificationDetails status=SUCCESS method=TC004_Get_One_Notification_Details.retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC004_Get_One_Notification_Details -->
+      <class name="com.NotificationDetails.TC005_Delete_Notification_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="setup" is-config="true" duration-ms="7" started-at="2020-08-11T11:46:46Z" finished-at="2020-08-11T11:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="callNotificationAPI" duration-ms="3058" started-at="2020-08-11T11:46:46Z" finished-at="2020-08-11T11:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callNotificationAPI -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-08-11T11:46:49Z" finished-at="2020-08-11T11:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=callNotificationAPI status=SUCCESS method=TC005_Delete_Notification_Details.callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="retrieveNotificationDetails" duration-ms="3096" started-at="2020-08-11T11:46:49Z" finished-at="2020-08-11T11:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveNotificationDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=retrieveNotificationDetails status=SUCCESS method=TC005_Delete_Notification_Details.retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@6b2ea799] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC005_Delete_Notification_Details -->
+      <class name="com.DriverProfile.TC001_Post_DriverRegistration">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@411f53a0]" name="setup" is-config="true" duration-ms="6" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="post_New_Users()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@411f53a0]" name="post_New_Users" duration-ms="156" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
+          <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
-              <![CDATA[Connection reset]]>
+              <![CDATA[Failed to parse the JSON document]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.SocketException: Connection reset
-at java.net.SocketInputStream.read(Unknown Source)
-at java.net.SocketInputStream.read(Unknown Source)
-at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
-at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
-at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
-at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
-at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
-at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:207)
-at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
-at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
-at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
-at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
-at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:350)
-at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
-at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
-at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
-at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.FilterContext$next.call(Unknown Source)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
-at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:295)
-at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
-at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:291)
-at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
-at com.POSTusersapi.testCases.TC002_Post_ALL_Users.post_New_Users(TC002_Post_ALL_Users.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.RestUtility.Helper.validate_Post_Json_ResponseBody(Helper.java:119)
+	at com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users(TC001_Post_DriverRegistration.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading 'm', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 34 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.net.SocketException -->
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post_New_Users -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-05-19T18:10:16 IST" finished-at="2020-05-19T18:10:16 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@411f53a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-11T11:46:53Z" finished-at="2020-08-11T11:46:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=post_New_Users status=FAILURE method=TC002_Post_ALL_Users.post_New_Users(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc] output={null}]]]>
+                <![CDATA[[TestResult name=post_New_Users status=FAILURE method=TC001_Post_DriverRegistration.post_New_Users()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@411f53a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.POSTusersapi.testCases.TC002_Post_ALL_Users@3108bc]" name="endReport" is-config="true" duration-ms="2757" started-at="2020-05-19T18:10:19 IST" finished-at="2020-05-19T18:10:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.POSTusersapi.testCases.TC002_Post_ALL_Users -->
+      </class> <!-- com.DriverProfile.TC001_Post_DriverRegistration -->
     </test> <!-- USERS_API_Result -->
   </suite> <!-- USERS_API Suite -->
 </testng-results>

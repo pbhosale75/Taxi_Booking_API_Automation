@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>USERS_API_Result</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 04 16:35:13 IST 2020</td>
+<td>Started on:</td><td>Tue Aug 11 11:23:45 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6709 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23320 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,90 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users()'><b>post_New_Users</b><br>Test class: com.DriverProfile.TC001_Post_DriverRegistration</td>
+<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.RestUtility.Helper.validate_Post_Json_ResponseBody(Helper.java:119)
+	at com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users(TC001_Post_DriverRegistration.java:58)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;m&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 30 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace381930033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace381930033'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.RestUtility.Helper.validate_Post_Json_ResponseBody(Helper.java:119)
+	at com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users(TC001_Post_DriverRegistration.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;m&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 30 more
+</pre></div></td>
+<td>0</td>
+<td>com.DriverProfile.TC001_Post_DriverRegistration@20d525</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,20 +159,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.NotificationDetails.TC004_Get_One_Notification_Details.callNotificationAPI()'><b>callNotificationAPI</b><br>Test class: com.NotificationDetails.TC004_Get_One_Notification_Details</td>
+<td></td>
+<td>3</td>
+<td>com.NotificationDetails.TC004_Get_One_Notification_Details@37ceb1df</td></tr>
+<tr>
+<td title='com.NotificationDetails.TC005_Delete_Notification_Details.callNotificationAPI()'><b>callNotificationAPI</b><br>Test class: com.NotificationDetails.TC005_Delete_Notification_Details</td>
+<td></td>
+<td>3</td>
+<td>com.NotificationDetails.TC005_Delete_Notification_Details@7c9d8e2</td></tr>
+<tr>
 <td title='com.NotificationDetails.TC001_Get_Notification_Users.getList_Users()'><b>getList_Users</b><br>Test class: com.NotificationDetails.TC001_Get_Notification_Users</td>
 <td></td>
-<td>5</td>
-<td>com.NotificationDetails.TC001_Get_Notification_Users@41a2befb</td></tr>
+<td>8</td>
+<td>com.NotificationDetails.TC001_Get_Notification_Users@2df3b89c</td></tr>
 <tr>
 <td title='com.NotificationDetails.TC002_Post_Notification_Users.post_New_Users()'><b>post_New_Users</b><br>Test class: com.NotificationDetails.TC002_Post_Notification_Users</td>
 <td></td>
 <td>0</td>
-<td>com.NotificationDetails.TC002_Post_Notification_Users@6c40365c</td></tr>
+<td>com.NotificationDetails.TC002_Post_Notification_Users@23348b5d</td></tr>
 <tr>
 <td title='com.NotificationDetails.TC003_PUT_Notification_Users.put_New_Users()'><b>put_New_Users</b><br>Test class: com.NotificationDetails.TC003_PUT_Notification_Users</td>
 <td></td>
 <td>0</td>
-<td>com.NotificationDetails.TC003_PUT_Notification_Users@7bedc48a</td></tr>
+<td>com.NotificationDetails.TC003_PUT_Notification_Users@70325e14</td></tr>
+<tr>
+<td title='com.NotificationDetails.TC004_Get_One_Notification_Details.retrieveNotificationDetails()'><b>retrieveNotificationDetails</b><br>Test class: com.NotificationDetails.TC004_Get_One_Notification_Details</td>
+<td></td>
+<td>3</td>
+<td>com.NotificationDetails.TC004_Get_One_Notification_Details@37ceb1df</td></tr>
+<tr>
+<td title='com.NotificationDetails.TC005_Delete_Notification_Details.retrieveNotificationDetails()'><b>retrieveNotificationDetails</b><br>Test class: com.NotificationDetails.TC005_Delete_Notification_Details</td>
+<td></td>
+<td>3</td>
+<td>com.NotificationDetails.TC005_Delete_Notification_Details@7c9d8e2</td></tr>
 </table><p>
 </body>
 </html>

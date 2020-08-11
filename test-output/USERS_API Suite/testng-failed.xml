@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [USERS_API Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListner.ExtentReportListner"/>
-  </listeners>
   <test name="USERS_API_Result">
     <classes>
       <class name="com.NotificationDetails.TC001_Get_Notification_Users"/>
       <class name="com.NotificationDetails.TC002_Post_Notification_Users"/>
       <class name="com.NotificationDetails.TC003_PUT_Notification_Users"/>
+      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"/>
+      <class name="com.NotificationDetails.TC005_Delete_Notification_Details"/>
+      <class name="com.DriverProfile.TC001_Post_DriverRegistration"/>
     </classes>
   </test> <!-- USERS_API_Result -->
+  <test name="USERS_API_Result(failed)">
+    <classes>
+      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.NotificationDetails.TC004_Get_One_Notification_Details -->
+      <class name="com.DriverProfile.TC001_Post_DriverRegistration">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="post_New_Users"/>
+        </methods>
+      </class> <!-- com.DriverProfile.TC001_Post_DriverRegistration -->
+      <class name="com.NotificationDetails.TC003_PUT_Notification_Users">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.NotificationDetails.TC003_PUT_Notification_Users -->
+      <class name="com.NotificationDetails.TC002_Post_Notification_Users">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.NotificationDetails.TC002_Post_Notification_Users -->
+      <class name="com.NotificationDetails.TC001_Get_Notification_Users">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.NotificationDetails.TC001_Get_Notification_Users -->
+      <class name="com.NotificationDetails.TC005_Delete_Notification_Details">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.NotificationDetails.TC005_Delete_Notification_Details -->
+    </classes>
+  </test> <!-- USERS_API_Result(failed) -->
 </suite> <!-- Failed suite [USERS_API Suite] -->

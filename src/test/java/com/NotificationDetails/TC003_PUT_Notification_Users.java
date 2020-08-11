@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.json.JSONException;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -25,7 +26,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class TC003_PUT_Notification_Users extends TestBase{
 	@Test()
- 	 public static void put_New_Users() {
+ 	 public static void put_New_Users() throws JSONException {
 	 logger.info("**************Started TC003_PUT_Request_ALL_Users***************");
 	  Constant.read_Constant();
 	  RestAssured.baseURI=Constant.user_Notification_Post;

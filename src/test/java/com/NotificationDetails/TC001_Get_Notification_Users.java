@@ -46,8 +46,8 @@ public class TC001_Get_Notification_Users extends TestBase {
 	  Constant.read_Constant();
 	  RestAssured.baseURI=Constant.user_Notification_Get;
 	  httpRequest=RestAssured.given();
+	  httpRequest.header("Content-Type","application/json");
 	  response=httpRequest.request(Method.GET,Constant.user_Notification_Get_Resource);
-	 
 	  
 	  Thread.sleep(3000);
 	  Helper.verifiy_Response_Body();

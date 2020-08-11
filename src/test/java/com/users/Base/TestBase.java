@@ -35,7 +35,7 @@ public class TestBase {
 	public static ExtentTest test;
 	public static ExtentHtmlReporter reporter;
 	
-	public static ExcelDataConfig excel = new ExcelDataConfig(System.getProperty("user.dir") + "\\src\\test\\java\\TestData\\API_List (1).xlsx");
+	public static ExcelDataConfig excel = new ExcelDataConfig(System.getProperty("user.dir") + "\\src\\test\\java\\TestData\\API_TestData.xlsx");
 	
 	
   
