@@ -34,10 +34,11 @@ import static io.restassured.RestAssured.*;
 public class Helper extends TestBase{
 	public static String response_Body;
 	public static String UserID;
+	public static String NotificationID;
 	public static String jsonAsString;
 	
   @Test
-  public static void verifiy_Response_Body(){
+  public static void verifiy_Response_Body() throws JSONException{
 	  logger.info("**************Checking Response Body**************");
 	  
 	  test=extent.createTest("verifiy_Response_Body");
@@ -46,11 +47,26 @@ public class Helper extends TestBase{
 	  logger.info("Response Body==>"+response_Body);
 	  test.createNode(response_Body);
 	  System.out.println("Response Body Data="+response_Body);
-	  
-	  
-	  
+}
+  //Getting Path Parameter Value
+  @Test
+  public static void validate_PathParam() throws JSONException {
+	  jsonAsString = response.asString();
+	    
+      
+      JSONArray jsonArray = new JSONArray(jsonAsString);
+
+      for(int i=0;i<jsonArray.length();i++)
+      {
+          org.json.JSONObject jsonObject1 = jsonArray.getJSONObject(i);
+          UserID = jsonObject1.optString("userId");
+          System.out.println("User ID ="+UserID);
+          NotificationID=jsonObject1.optString("notificationId");
+          System.out.println("Notification ID =" +NotificationID);
+      }
+      
+
   }
-  
 	
 //validating GET Request Json Response Body
   @Test
@@ -58,6 +74,7 @@ public class Helper extends TestBase{
 	  //test=extent.createTest("Validate Json GET Response Body");
 	  test.log(Status.PASS, "Validate Json GET Response Body");
 	  JsonPath js=new JsonPath(response_Body);
+	  
 	  Gson gson = new Gson(); 
 	  
 	  Message[] userArray = gson.fromJson(response_Body, Message[].class);  
@@ -66,6 +83,7 @@ public class Helper extends TestBase{
 	  for(Message user : userArray) {
 		  
 		  String UserID=user.getUserId();
+		  
 		  Assert.assertEquals(UserID,excel.getData("Get_JsonResponse", 1, 1));
 	      String NotificationID=user.getNotificationId();
 	      Assert.assertEquals(NotificationID,excel.getData("Get_JsonResponse", 2, 1));
@@ -94,8 +112,43 @@ public class Helper extends TestBase{
  //validating Post Request Json Response Body
 	@Test
 	  public static void validate_Post_Json_ResponseBody() throws ParseException {
-	   
-		test.log(Status.PASS, "Validate Json GET Response Body");	  
+		logger.info("**************Checking Status Code**************");
+		test=extent.createTest("verify_Json_Post_Response_Code");
+		test.log(Status.PASS, "Validate Json Post Response Body");	 
+		
+		  JsonPath js=new JsonPath(response_Body);
+		  String DriverID=js.getString("driverId");
+		  test.log(Status.PASS, DriverID);
+		  String Fname=js.getString("firstname");
+		  Assert.assertEquals(Fname,excel.getData("driver_Post_ValidationData", 2, 1));
+		  test.log(Status.PASS, Fname);
+		  String Lname=js.getString("lastname");
+		  Assert.assertEquals(Lname, excel.getData("driver_Post_ValidationData", 3, 1));
+		  test.log(Status.PASS, Lname);
+		  String EAddress=js.getString("emailAddress");
+		  Assert.assertEquals(EAddress, excel.getData("driver_Post_ValidationData", 4, 1));
+		  test.log(Status.PASS, EAddress);
+		  String MNumber=js.getString("mobileNumber");
+		  Assert.assertEquals(MNumber, excel.getData("driver_Post_ValidationData", 5, 1));
+		  test.log(Status.PASS, MNumber);
+		  String Gen=js.getString("gender");
+		  Assert.assertEquals(Gen, excel.getData("driver_Post_ValidationData", 6, 1));
+		  test.log(Status.PASS, Gen);
+		  
+		  String VehType=js.getString("vehicleType");
+		  Assert.assertEquals(VehType, excel.getData("driver_Post_ValidationData", 7, 1));
+		  test.log(Status.PASS, VehType);
+		  String LPinCode=js.getString("locationPinCode");
+		  Assert.assertEquals(LPinCode, excel.getCellData("driver_Post_ValidationData", 8, 1));
+		  test.log(Status.PASS, LPinCode);
+		  String VehAval=js.getString("vehicleAvailablity");
+		  Assert.assertEquals(VehAval, excel.getData("driver_Post_ValidationData", 9, 1));
+		  test.log(Status.PASS, VehAval);
+		 /* String VehRegNo=js.getString("vehicleRegNumber");
+		  Assert.assertEquals(VehRegNo, excel.getCellData("driver_Post_ValidationData", 10, 1));
+		  test.log(Status.PASS, VehRegNo);*/
+		  
+		  
   }
  @Test
   public static void verify_Status_Code() {
@@ -240,21 +293,23 @@ public class Helper extends TestBase{
 	  String contentType=response.header("Content-Type");
 	  logger.info("Content Type==>"+contentType);
 	  test=extent.createTest(contentType);
-	  /*if(contentType=="application/json; charset=utf-8") {
+	  test.createNode(contentType);
+	  if(contentType=="application/json; charset=utf-8") {
 		  System.out.println("Content Type is application/json; charset=utf-8");
 		  Assert.assertEquals(contentType, "application/json; charset=utf-8");
+		  
 		  test.createNode(contentType);
 	  }
 	  else if(contentType=="application/json") {
 		  System.out.println("Content Type is application/json");
 		  Assert.assertEquals(contentType, "application/json");
 		  test.createNode(contentType);
-	  }*/
+	  }
 	   if(contentType=="text/plain;charset=UTF-8") {
 		  System.out.println("Content Type is text/plain;charset=UTF-8");
 		  Assert.assertEquals(contentType, "text/plain;charset=UTF-8");
 		  test.createNode(contentType);
-		  test.log(Status.PASS, contentType);
+		  
 	  }
 	  
   }
@@ -264,8 +319,19 @@ public class Helper extends TestBase{
 	  test=extent.createTest("verify_ServerType");
 	  String serverType=response.header("Server");
 	  logger.info("ServerType==>"+serverType);
-	  Assert.assertEquals(serverType, "cloudflare");
+	  //Assert.assertEquals(serverType, "cloudflare");
 	  test.createNode(serverType);
+	  if(serverType=="cloudflare") {
+		  System.out.println("Content Type is cloudflare");
+		  Assert.assertEquals(serverType, "cloudflare");
+		  
+		  test.createNode(serverType);
+	  }
+	  else if(serverType=="Kestrel") {
+		  System.out.println("Content Type is Kestrel");
+		  Assert.assertEquals(serverType, "Kestrel");
+		  test.createNode(serverType);
+	  }
 	  
   }
   @Test

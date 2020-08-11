@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="USERS_API Suite">
    <listeners>
-   <listener class-name="com.qa.ExtentReportListner.ExtentReportListner"></listener>
+   <!-- listener class-name="com.qa.ExtentReportListner.ExtentReportListner"></listener-->
    </listeners>
    <test name="USERS_API_Result">
   	<classes>
@@ -10,8 +10,8 @@
      <class name="com.NotificationDetails.TC002_Post_Notification_Users"></class>
      <class name="com.NotificationDetails.TC003_PUT_Notification_Users"></class>
      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"></class>
-     <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"></class>
-     
+     <class name="com.NotificationDetails.TC005_Delete_Notification_Details"></class>
+     <class name="com.DriverProfile.TC001_Post_DriverRegistration"></class>
     </classes>
     
   </test>

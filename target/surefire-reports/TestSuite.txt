@@ -1,15 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 30.168 s <<< FAILURE! - in TestSuite
-getList_Users(com.GETusersapi.testCases.TC001_Get_Single_Users)  Time elapsed: 12.522 s  <<< FAILURE!
-java.lang.NumberFormatException: null
-
-getSingle_Users(com.GETusersapi.testCases.TC001_Get_Single_Users)  Time elapsed: 4.265 s  <<< FAILURE!
-java.lang.NumberFormatException: null
-	at com.GETusersapi.testCases.TC001_Get_Single_Users.getSingle_Users(TC001_Get_Single_Users.java:47)
-
-post_New_Users(com.POSTusersapi.testCases.TC002_Post_ALL_Users)  Time elapsed: 0.495 s  <<< FAILURE!
-java.net.SocketException: Connection reset
-	at com.POSTusersapi.testCases.TC002_Post_ALL_Users.post_New_Users(TC002_Post_ALL_Users.java:38)
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.492 s <<< FAILURE! - in TestSuite
+post_New_Users(com.DriverProfile.TC001_Post_DriverRegistration)  Time elapsed: 0.173 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users(TC001_Post_DriverRegistration.java:58)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading 'm', no possible valid JSON value or punctuation could be recognized.
+	at com.DriverProfile.TC001_Post_DriverRegistration.post_New_Users(TC001_Post_DriverRegistration.java:58)
 

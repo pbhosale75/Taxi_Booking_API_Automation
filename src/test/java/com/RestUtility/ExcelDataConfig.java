@@ -54,25 +54,7 @@ public class ExcelDataConfig {
 		return val;
 		
 	}
-	public String getData1(String sheetname)
-	{
-		int count_Row=sh1.getLastRowNum();
-		int count_Cell=sh1.getRow(0).getLastCellNum();
-		sh1 = wb.getSheet(sheetname);
-		for(int i=1;i<count_Row;i++)
-		  {
-			  XSSFRow current_Row=sh1.getRow(i);
-			  for(int j=0;j<count_Cell;j++)
-			  {
-				  String value=current_Row.getCell(j).toString();
-				  //System.out.print(" "  +value);
-				  return value;
-				  
-			  }
-			  //System.out.println();
-		  }
-		return sheetname;
-		}
+	
 	
 	
 }
