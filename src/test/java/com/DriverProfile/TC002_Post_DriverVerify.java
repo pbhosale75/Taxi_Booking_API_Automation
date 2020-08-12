@@ -21,7 +21,7 @@ public class TC002_Post_DriverVerify extends TestBase {
   @Test(priority = 0)
   public static void post_drierVerify_EmptyData() throws JSONException {
 	  	logger.info("**************Started TC002_POST_Request__DriverVerify Do not pass values for below fields in POST request***************");
-	  	Constant.read_Constant();
+	  	 Constant.read_Constant();
 		 RestAssured.baseURI=Constant.post_DriverVerify;
 		 httpRequest=RestAssured.given();
 		 httpRequest.header("Content-Type","application/json");
