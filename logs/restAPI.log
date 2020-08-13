@@ -819,3 +819,107 @@
 2020-08-11 18:41:25,293 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:375 - **************Checking Server Date Time**************
 2020-08-11 18:41:25,294 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:378 - Server Response Time==>0
 2020-08-11 18:41:25,297 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:99 - ***************Finished TC001_POST_Driver_Registration************************
+2020-08-13 12:51:38,107 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:23 - **************Started TC002_POST_Request__DriverVerify Do not pass values for below fields in POST request***************
+2020-08-13 12:51:41,156 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Response Body**************
+2020-08-13 12:51:41,182 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - Response Body==>{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"|b2ad7c3b-4075c06551022f0a.","errors":{"Password":["The Password field is required."],"Username":["The Username field is required."]}}
+2020-08-13 12:51:41,186 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:156 - **************Checking Status Code**************
+2020-08-13 12:51:41,186 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - Status Code==>400
+2020-08-13 12:51:41,190 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:241 - **************Checking Response Time**************
+2020-08-13 12:51:41,191 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:244 - Response Time==>2000
+2020-08-13 12:51:41,191 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:249 - Response time is Gretter than 2000
+2020-08-13 12:51:41,192 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:256 - **************Checking Status Line**************
+2020-08-13 12:51:41,192 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:259 - Status line==>HTTP/1.1 400 Bad Request
+2020-08-13 12:51:41,193 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:292 - **************Checking Content Type**************
+2020-08-13 12:51:41,193 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:295 - Content Type==>application/problem+json; charset=utf-8
+2020-08-13 12:51:41,194 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:376 - **************Checking Server Date Time**************
+2020-08-13 12:51:41,201 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:379 - Server Response Time==>0
+2020-08-13 12:51:41,205 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:99 - ***************Finished TC002_POST_Driver_Verify************************
+2020-08-13 12:51:41,260 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - **************Started TC002_POST_Request__DriverVerify Do not pass values for below fields in POST request***************
+2020-08-13 12:51:42,178 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Response Body**************
+2020-08-13 12:51:42,180 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - Response Body==>Invalid user
+2020-08-13 12:51:42,181 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:156 - **************Checking Status Code**************
+2020-08-13 12:51:42,181 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - Status Code==>404
+2020-08-13 12:51:42,182 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:241 - **************Checking Response Time**************
+2020-08-13 12:51:42,182 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:244 - Response Time==>895
+2020-08-13 12:51:42,182 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:256 - **************Checking Status Line**************
+2020-08-13 12:51:42,183 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:259 - Status line==>HTTP/1.1 404 Not Found
+2020-08-13 12:51:42,183 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:292 - **************Checking Content Type**************
+2020-08-13 12:51:42,183 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:295 - Content Type==>text/plain; charset=utf-8
+2020-08-13 12:51:42,184 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:376 - **************Checking Server Date Time**************
+2020-08-13 12:51:42,184 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:379 - Server Response Time==>0
+2020-08-13 12:51:42,187 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:99 - ***************Finished TC002_POST_Driver_Verify************************
+2020-08-13 12:51:42,192 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:74 - **************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************
+2020-08-13 12:51:42,356 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Response Body**************
+2020-08-13 12:51:42,357 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - Response Body==>{"driverId":"829839c4-83dc-44b1-880d-840f5015035b","firstname":"testdriver","lastname":"lastdriver","emailAddress":"driver.test_43@gmail.com","mobileNumber":7755663243,"gender":"male","vehicleType":"Auto","locationPinCode":400706,"vehicleAvailablity":"N","vehicleRegNumber":null}
+2020-08-13 12:51:42,357 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:156 - **************Checking Status Code**************
+2020-08-13 12:51:42,358 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - Status Code==>200
+2020-08-13 12:51:42,358 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:116 - **************Checking Status Code**************
+2020-08-13 12:51:44,078 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:241 - **************Checking Response Time**************
+2020-08-13 12:51:44,079 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:244 - Response Time==>137
+2020-08-13 12:51:44,079 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:256 - **************Checking Status Line**************
+2020-08-13 12:51:44,080 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:259 - Status line==>HTTP/1.1 200 OK
+2020-08-13 12:51:44,080 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:292 - **************Checking Content Type**************
+2020-08-13 12:51:44,080 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:295 - Content Type==>application/json; charset=utf-8
+2020-08-13 12:51:44,081 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:376 - **************Checking Server Date Time**************
+2020-08-13 12:51:44,081 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:379 - Server Response Time==>0
+2020-08-13 12:51:44,085 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:99 - ***************Finished TC002_POST_Driver_Verify************************
+2020-08-13 12:57:30,396 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************
+2020-08-13 12:57:33,935 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Response Body**************
+2020-08-13 12:57:33,958 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - Response Body==>{"driverId":"829839c4-83dc-44b1-880d-840f5015035b","firstname":"testdriver","lastname":"lastdriver","emailAddress":"driver.test_43@gmail.com","mobileNumber":7755663243,"gender":"male","vehicleType":"Auto","locationPinCode":400706,"vehicleAvailablity":"N","vehicleRegNumber":null}
+2020-08-13 12:57:33,961 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:156 - **************Checking Status Code**************
+2020-08-13 12:57:33,962 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - Status Code==>200
+2020-08-13 12:57:33,967 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:116 - **************Checking Status Code**************
+2020-08-13 12:57:35,661 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:241 - **************Checking Response Time**************
+2020-08-13 12:57:35,662 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:244 - Response Time==>2100
+2020-08-13 12:57:35,663 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:249 - Response time is Gretter than 2000
+2020-08-13 12:57:35,663 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:256 - **************Checking Status Line**************
+2020-08-13 12:57:35,664 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:259 - Status line==>HTTP/1.1 200 OK
+2020-08-13 12:57:35,664 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:292 - **************Checking Content Type**************
+2020-08-13 12:57:35,665 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:295 - Content Type==>application/json; charset=utf-8
+2020-08-13 12:57:35,666 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:376 - **************Checking Server Date Time**************
+2020-08-13 12:57:35,672 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:379 - Server Response Time==>0
+2020-08-13 12:57:35,679 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-13 12:57:38,689 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:43 - **************Checking Response Body**************
+2020-08-13 12:57:38,691 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:48 - Response Body==>{"driverId":"829839c4-83dc-44b1-880d-840f5015035b","firstname":"testdriver","lastname":"lastdriver","emailAddress":"driver.test_43@gmail.com","mobileNumber":7755663243,"gender":"male","vehicleType":"Auto","locationPinCode":400706,"vehicleAvailablity":"N","vehicleRegNumber":null}
+2020-08-13 12:57:38,796 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:156 - **************Checking Status Code**************
+2020-08-13 12:57:38,797 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:159 - Status Code==>200
+2020-08-13 12:57:38,797 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:116 - **************Checking Status Code**************
+2020-08-13 12:57:39,039 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:256 - **************Checking Status Line**************
+2020-08-13 12:57:39,040 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:259 - Status line==>HTTP/1.1 200 OK
+2020-08-13 12:57:39,040 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:292 - **************Checking Content Type**************
+2020-08-13 12:57:39,040 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:295 - Content Type==>application/json; charset=utf-8
+2020-08-13 12:57:39,041 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:319 - **************Checking Server Type**************
+2020-08-13 12:57:39,041 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:322 - ServerType==>Kestrel
+2020-08-13 12:57:39,041 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:376 - **************Checking Server Date Time**************
+2020-08-13 12:57:39,042 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:379 - Server Response Time==>0
+2020-08-13 12:57:39,046 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-13 13:29:57,148 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************
+2020-08-13 13:30:00,981 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-13 13:30:01,005 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>{"driverId":"829839c4-83dc-44b1-880d-840f5015035b","firstname":"testdriver","lastname":"lastdriver","emailAddress":"driver.test_43@gmail.com","mobileNumber":7755663243,"gender":"male","vehicleType":"Auto","locationPinCode":400706,"vehicleAvailablity":"N","vehicleRegNumber":null}
+2020-08-13 13:30:01,007 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-13 13:30:01,008 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>200
+2020-08-13 13:30:01,011 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:117 - **************Checking Status Code**************
+2020-08-13 13:30:02,732 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:242 - **************Checking Response Time**************
+2020-08-13 13:30:02,733 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:245 - Response Time==>2167
+2020-08-13 13:30:02,733 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:250 - Response time is Gretter than 2000
+2020-08-13 13:30:02,734 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:257 - **************Checking Status Line**************
+2020-08-13 13:30:02,734 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:260 - Status line==>HTTP/1.1 200 OK
+2020-08-13 13:30:02,735 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:293 - **************Checking Content Type**************
+2020-08-13 13:30:02,736 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:296 - Content Type==>application/json; charset=utf-8
+2020-08-13 13:30:02,736 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:377 - **************Checking Server Date Time**************
+2020-08-13 13:30:02,744 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:380 - Server Response Time==>0
+2020-08-13 13:30:02,749 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - ***************Finished TC001_GET_USER_NOTIFICATION************************
+2020-08-13 13:30:05,777 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-13 13:30:05,780 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>{"driverId":"829839c4-83dc-44b1-880d-840f5015035b","firstname":"testdriver","lastname":"lastdriver","emailAddress":"driver.test_43@gmail.com","mobileNumber":7755663243,"gender":"male","vehicleType":"Auto","locationPinCode":400706,"vehicleAvailablity":"N","vehicleRegNumber":null}
+2020-08-13 13:30:05,860 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-13 13:30:05,860 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>200
+2020-08-13 13:30:05,861 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:117 - **************Checking Status Code**************
+2020-08-13 13:30:05,963 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:257 - **************Checking Status Line**************
+2020-08-13 13:30:05,963 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:260 - Status line==>HTTP/1.1 200 OK
+2020-08-13 13:30:05,964 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:293 - **************Checking Content Type**************
+2020-08-13 13:30:05,964 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:296 - Content Type==>application/json; charset=utf-8
+2020-08-13 13:30:05,964 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:320 - **************Checking Server Type**************
+2020-08-13 13:30:05,965 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:323 - ServerType==>Kestrel
+2020-08-13 13:30:05,965 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:377 - **************Checking Server Date Time**************
+2020-08-13 13:30:05,965 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:380 - Server Response Time==>0
+2020-08-13 13:30:05,967 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:91 - ***************Finished TC001_GET_USER_NOTIFICATION************************
