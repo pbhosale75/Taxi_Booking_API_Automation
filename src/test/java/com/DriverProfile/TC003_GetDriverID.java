@@ -60,10 +60,10 @@ public class TC003_GetDriverID extends TestBase{
 	  	String Driveid =Helper.DriverID;
 	  	
 	  	System.out.println("Driver ID="+Driveid);
-	  	RestAssured.baseURI=Constant.get_Driver_By_ID;
+	  	RestAssured.baseURI=Constant.get_DriverID;
 	  	httpRequest=RestAssured.given();
 	  	httpRequest.header("Content-Type","application/json");
-	  	httpRequest.basePath(Constant.get_Driver_By_ID_Resources);
+	  	httpRequest.basePath(Constant.get_DriverID_Resources);
 	  
 	  	httpRequest.pathParam("driverID",Driveid);
 	  	response=httpRequest.get("/{driverID}");

@@ -36,6 +36,8 @@ public class Helper extends TestBase{
 	public static String UserID;
 	public static String NotificationID;
 	public static String jsonAsString;
+	public static String DriverID;
+	public static String EAddress;
 	
   @Test
   public static void verifiy_Response_Body() throws JSONException{
@@ -117,7 +119,7 @@ public class Helper extends TestBase{
 		test.log(Status.PASS, "Validate Json Post Response Body");	 
 		
 		  JsonPath js=new JsonPath(response_Body);
-		  String DriverID=js.getString("driverId");
+		  DriverID=js.getString("driverId");
 		  test.log(Status.PASS, DriverID);
 		  String Fname=js.getString("firstname");
 		  Assert.assertEquals(Fname,excel.getData("driver_Post_ValidationData", 2, 1));
@@ -125,7 +127,7 @@ public class Helper extends TestBase{
 		  String Lname=js.getString("lastname");
 		  Assert.assertEquals(Lname, excel.getData("driver_Post_ValidationData", 3, 1));
 		  test.log(Status.PASS, Lname);
-		  String EAddress=js.getString("emailAddress");
+		  EAddress=js.getString("emailAddress");
 		  Assert.assertEquals(EAddress, excel.getData("driver_Post_ValidationData", 4, 1));
 		  test.log(Status.PASS, EAddress);
 		  String MNumber=js.getString("mobileNumber");

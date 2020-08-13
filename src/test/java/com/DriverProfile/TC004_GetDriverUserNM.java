@@ -23,7 +23,7 @@ import com.users.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 
-public class TC003_GetDriverUserNM extends TestBase{
+public class TC004_GetDriverUserNM extends TestBase{
 	 @Test(priority = 0)
 	  public static void post_drierVerify_Valid_UNM_PWD() throws JSONException, ParseException {
 		  logger.info("**************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************");
@@ -60,10 +60,10 @@ public class TC003_GetDriverUserNM extends TestBase{
 	  	String Userid =Helper.EAddress;
 	  	
 	  	System.out.println("User ID="+Userid);
-	  	RestAssured.baseURI=Constant.get_Driver_BY_UNM;
+	  	RestAssured.baseURI=Constant.get_DriverUNM;
 	  	httpRequest=RestAssured.given();
 	  	httpRequest.header("Content-Type","application/json");
-	  	httpRequest.basePath(Constant.get_Driver_BY_UNM_Resources);
+	  	httpRequest.basePath(Constant.get_DriverUNM_Resources);
 	  
 	  	httpRequest.pathParam("userID",Userid);
 	  	response=httpRequest.get("/{userID}");
