@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [USERS_API Suite]">
+  <test name="USERS_API_Result">
     <classes>
-      <class name="Serilization_DriverDetails.DriverObject"/>
+      <class name="com.NotificationDetails.TC001_Get_Notification_Users"/>
+      <class name="com.NotificationDetails.TC002_Post_Notification_Users"/>
+      <class name="com.NotificationDetails.TC003_PUT_Notification_Users"/>
+      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"/>
+      <class name="com.NotificationDetails.TC005_Delete_Notification_Details"/>
+      <class name="com.DriverProfile.TC001_Post_DriverRegistration"/>
+      <class name="com.DriverProfile.TC002_Post_DriverVerify"/>
+      <class name="com.DriverProfile.TC003_GetDriverID"/>
+      <class name="com.DriverProfile.TC004_GetDriverUserNM"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- USERS_API_Result -->
+</suite> <!-- Failed suite [USERS_API Suite] -->

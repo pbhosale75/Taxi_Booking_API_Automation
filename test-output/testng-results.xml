@@ -1,21 +1,356 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6410" started-at="2020-08-13T09:53:31Z" finished-at="2020-08-13T09:53:37Z">
+  <suite name="USERS_API Suite" duration-ms="29159" started-at="2020-08-13T14:41:57Z" finished-at="2020-08-13T14:42:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6410" started-at="2020-08-13T09:53:31Z" finished-at="2020-08-13T09:53:37Z">
-      <class name="Serilization_DriverDetails.DriverObject">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Serilization_DriverDetails.DriverObject@37ceb1df]" name="setup" is-config="true" duration-ms="138" started-at="2020-08-13T15:23:31Z" finished-at="2020-08-13T15:23:31Z">
+    <test name="USERS_API_Result" duration-ms="29159" started-at="2020-08-13T14:41:57Z" finished-at="2020-08-13T14:42:26Z">
+      <class name="com.DriverProfile.TC003_GetDriverID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="setup" is-config="true" duration-ms="9" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_Message()[pri:0, instance:Serilization_DriverDetails.DriverObject@37ceb1df]" name="verify_Message" duration-ms="6244" started-at="2020-08-13T15:23:31Z" finished-at="2020-08-13T15:23:37Z">
+        <test-method status="PASS" signature="post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="post_drierVerify_Valid_UNM_PWD" duration-ms="140" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Message -->
-      </class> <!-- Serilization_DriverDetails.DriverObject -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- post_drierVerify_Valid_UNM_PWD -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_drierVerify_Valid_UNM_PWD status=SUCCESS method=TC003_GetDriverID.post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_GetReqByDriverID()[pri:1, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="verify_GetReqByDriverID" duration-ms="3107" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GetReqByDriverID -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:22Z" finished-at="2020-08-13T20:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_GetReqByDriverID status=SUCCESS method=TC003_GetDriverID.verify_GetReqByDriverID()[pri:1, instance:com.DriverProfile.TC003_GetDriverID@587e5365] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DriverProfile.TC003_GetDriverID -->
+      <class name="com.NotificationDetails.TC001_Get_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@69453e37]" name="setup" is-config="true" duration-ms="211" started-at="2020-08-13T20:11:57Z" finished-at="2020-08-13T20:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getList_Users()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@69453e37]" name="getList_Users" duration-ms="6857" started-at="2020-08-13T20:11:57Z" finished-at="2020-08-13T20:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList_Users -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@69453e37]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getList_Users status=SUCCESS method=TC001_Get_Notification_Users.getList_Users()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@69453e37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC001_Get_Notification_Users@69453e37]" name="endReport" is-config="true" duration-ms="440" started-at="2020-08-13T20:12:25Z" finished-at="2020-08-13T20:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="endReport" is-config="true" duration-ms="169" started-at="2020-08-13T20:12:25Z" finished-at="2020-08-13T20:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="endReport" is-config="true" duration-ms="153" started-at="2020-08-13T20:12:25Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@6f4a47c7]" name="endReport" is-config="true" duration-ms="133" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC003_GetDriverID@587e5365]" name="endReport" is-config="true" duration-ms="132" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@ae13544]" name="endReport" is-config="true" duration-ms="175" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="endReport" is-config="true" duration-ms="152" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="endReport" is-config="true" duration-ms="100" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="endReport" is-config="true" duration-ms="111" started-at="2020-08-13T20:12:26Z" finished-at="2020-08-13T20:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.NotificationDetails.TC001_Get_Notification_Users -->
+      <class name="com.NotificationDetails.TC003_PUT_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@ae13544]" name="setup" is-config="true" duration-ms="5" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="put_New_Users()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@ae13544]" name="put_New_Users" duration-ms="59" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_New_Users -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@ae13544]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:05Z" finished-at="2020-08-13T20:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=put_New_Users status=SUCCESS method=TC003_PUT_Notification_Users.put_New_Users()[pri:0, instance:com.NotificationDetails.TC003_PUT_Notification_Users@ae13544] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC003_PUT_Notification_Users -->
+      <class name="com.NotificationDetails.TC002_Post_Notification_Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@6f4a47c7]" name="setup" is-config="true" duration-ms="9" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="post_New_Users()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@6f4a47c7]" name="post_New_Users" duration-ms="110" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_New_Users -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@6f4a47c7]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:04Z" finished-at="2020-08-13T20:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_New_Users status=SUCCESS method=TC002_Post_Notification_Users.post_New_Users()[pri:0, instance:com.NotificationDetails.TC002_Post_Notification_Users@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC002_Post_Notification_Users -->
+      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="setup" is-config="true" duration-ms="6" started-at="2020-08-13T20:12:05Z" finished-at="2020-08-13T20:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="callNotificationAPI" duration-ms="3039" started-at="2020-08-13T20:12:05Z" finished-at="2020-08-13T20:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callNotificationAPI -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-13T20:12:08Z" finished-at="2020-08-13T20:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=callNotificationAPI status=SUCCESS method=TC004_Get_One_Notification_Details.callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="retrieveNotificationDetails" duration-ms="3055" started-at="2020-08-13T20:12:08Z" finished-at="2020-08-13T20:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveNotificationDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:11Z" finished-at="2020-08-13T20:12:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=retrieveNotificationDetails status=SUCCESS method=TC004_Get_One_Notification_Details.retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC004_Get_One_Notification_Details@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC004_Get_One_Notification_Details -->
+      <class name="com.DriverProfile.TC004_GetDriverUserNM">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="setup" is-config="true" duration-ms="7" started-at="2020-08-13T20:12:22Z" finished-at="2020-08-13T20:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="post_drierVerify_Valid_UNM_PWD" duration-ms="134" started-at="2020-08-13T20:12:22Z" finished-at="2020-08-13T20:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_drierVerify_Valid_UNM_PWD -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:22Z" finished-at="2020-08-13T20:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_drierVerify_Valid_UNM_PWD status=SUCCESS method=TC004_GetDriverUserNM.post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_GetReqByDriverUserID()[pri:1, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="verify_GetReqByDriverUserID" duration-ms="3113" started-at="2020-08-13T20:12:22Z" finished-at="2020-08-13T20:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GetReqByDriverUserID -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-13T20:12:25Z" finished-at="2020-08-13T20:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_GetReqByDriverUserID status=SUCCESS method=TC004_GetDriverUserNM.verify_GetReqByDriverUserID()[pri:1, instance:com.DriverProfile.TC004_GetDriverUserNM@22fcf7ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DriverProfile.TC004_GetDriverUserNM -->
+      <class name="com.NotificationDetails.TC005_Delete_Notification_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="setup" is-config="true" duration-ms="3" started-at="2020-08-13T20:12:11Z" finished-at="2020-08-13T20:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="callNotificationAPI" duration-ms="3036" started-at="2020-08-13T20:12:11Z" finished-at="2020-08-13T20:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callNotificationAPI -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:14Z" finished-at="2020-08-13T20:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=callNotificationAPI status=SUCCESS method=TC005_Delete_Notification_Details.callNotificationAPI()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="retrieveNotificationDetails" duration-ms="3066" started-at="2020-08-13T20:12:14Z" finished-at="2020-08-13T20:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveNotificationDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=retrieveNotificationDetails status=SUCCESS method=TC005_Delete_Notification_Details.retrieveNotificationDetails()[pri:0, instance:com.NotificationDetails.TC005_Delete_Notification_Details@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NotificationDetails.TC005_Delete_Notification_Details -->
+      <class name="com.DriverProfile.TC002_Post_DriverVerify">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="setup" is-config="true" duration-ms="8" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="post_drierVerify_EmptyData()[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="post_drierVerify_EmptyData" duration-ms="22" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_drierVerify_EmptyData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_drierVerify_EmptyData status=SUCCESS method=TC002_Post_DriverVerify.post_drierVerify_EmptyData()[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="post_drierVerify_Invalid_UNM_PWD()[pri:1, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="post_drierVerify_Invalid_UNM_PWD" duration-ms="26" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_drierVerify_Invalid_UNM_PWD -->
+        <test-method status="PASS" signature="post_drierVerify_Valid_UNM_PWD()[pri:2, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="post_drierVerify_Valid_UNM_PWD" duration-ms="173" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_drierVerify_Valid_UNM_PWD -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_drierVerify_Invalid_UNM_PWD status=SUCCESS method=TC002_Post_DriverVerify.post_drierVerify_Invalid_UNM_PWD()[pri:1, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_drierVerify_Valid_UNM_PWD status=SUCCESS method=TC002_Post_DriverVerify.post_drierVerify_Valid_UNM_PWD()[pri:2, instance:com.DriverProfile.TC002_Post_DriverVerify@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DriverProfile.TC002_Post_DriverVerify -->
+      <class name="com.DriverProfile.TC001_Post_DriverRegistration">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="setup" is-config="true" duration-ms="5" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="post_DriveRegi_EmptyDate()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="post_DriveRegi_EmptyDate" duration-ms="24" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_DriveRegi_EmptyDate -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_DriveRegi_EmptyDate status=SUCCESS method=TC001_Post_DriverRegistration.post_DriveRegi_EmptyDate()[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="post_DriveRegi_Invalid_MobNo()[pri:1, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="post_DriveRegi_Invalid_MobNo" duration-ms="20" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_DriveRegi_Invalid_MobNo -->
+        <test-method status="PASS" signature="post_New_Users()[pri:2, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="post_New_Users" duration-ms="1285" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_New_Users -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-13T20:12:17Z" finished-at="2020-08-13T20:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_DriveRegi_Invalid_MobNo status=SUCCESS method=TC001_Post_DriverRegistration.post_DriveRegi_Invalid_MobNo()[pri:1, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-13T20:12:18Z" finished-at="2020-08-13T20:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_New_Users status=SUCCESS method=TC001_Post_DriverRegistration.post_New_Users()[pri:2, instance:com.DriverProfile.TC001_Post_DriverRegistration@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DriverProfile.TC001_Post_DriverRegistration -->
+    </test> <!-- USERS_API_Result -->
+  </suite> <!-- USERS_API Suite -->
 </testng-results>
