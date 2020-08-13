@@ -52,7 +52,8 @@ public class TC003_GetDriverID extends TestBase{
 
   @Test(priority = 1)
   public static void verify_GetReqByDriverID() throws InterruptedException, JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
-	  	Thread.sleep(3000);
+	  logger.info("**************Started TC002_POST_Request__DriverVerify Do  pass Valid values in the PATH request***************");	
+	  Thread.sleep(3000);
 	 	
 	  	Helper.verifiy_Response_Body();
 	  	//Helper.validate_PathParam();
@@ -88,7 +89,7 @@ public class TC003_GetDriverID extends TestBase{
 	}
   @AfterMethod
   public void tearDown(ITestResult result) {
-  	  logger.info("***************Finished TC001_GET_USER_NOTIFICATION************************");
+  	  logger.info("***************Finished TC003_GET_Driver_ID************************");
   	  if(result.getStatus()==ITestResult.FAILURE)
   	  {
   		  //test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+ "FAILED ", ExtentColor.RED));

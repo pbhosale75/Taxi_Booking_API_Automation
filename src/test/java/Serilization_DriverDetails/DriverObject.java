@@ -71,6 +71,22 @@ public class DriverObject extends TestBase implements Serializable,Cloneable{
 				  //Post Data Validation with excel Data
 				 String Fname=js.getString("firstname");
 				 Assert.assertEquals(Fname,excel.getData("driver_Post_ValidationData", 2, 1));
+				 String Lname=js.getString("lastname");
+				 Assert.assertEquals(Lname, excel.getData("driver_Post_ValidationData", 3, 1));
+				 String email=js.getString("emailAddress");
+				 Assert.assertEquals(email, excel.getData("driver_Post_ValidationData", 4, 1));
+				 String MNumber=js.getString("mobileNumber");
+				 Assert.assertEquals(MNumber, excel.getCellData("driver_Post_ValidationData", 5, 1));
+				 String Gen=js.getString("gender");
+				 Assert.assertEquals(Gen, excel.getData("driver_Post_ValidationData", 6, 1));
+				 String VehType=js.getString("vehicleType");
+				 Assert.assertEquals(VehType, excel.getData("driver_Post_ValidationData", 7, 1));
+				 String PIN=js.getString("locationPinCode");
+				 Assert.assertEquals(PIN, excel.getCellData("driver_Post_ValidationData", 8, 1));
+				 String VehAvil=js.getString("vehicleAvailablity");
+				 Assert.assertEquals(VehAvil, excel.getData("driver_Post_ValidationData", 9, 1));
+				 String VehReg=js.getString("vehicleRegNumber");
+				 Assert.assertEquals(VehReg, excel.getData("driver_Post_ValidationData", 10, 1));
 	     /*DriverDetials mc=given().expect().defaultParser(Parser.JSON)
 			 .when()
 			 .get("http://localhost:3000/users").as(DriverDetials.class);
