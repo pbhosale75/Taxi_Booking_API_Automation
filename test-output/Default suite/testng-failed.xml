@@ -6,4 +6,14 @@
       <class name="Serilization_DriverDetails.DriverObject"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Serilization_DriverDetails.DriverObject">
+        <methods>
+          <include name="verify_Message"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Serilization_DriverDetails.DriverObject -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,6 +12,9 @@
      <class name="com.NotificationDetails.TC004_Get_One_Notification_Details"></class>
      <class name="com.NotificationDetails.TC005_Delete_Notification_Details"></class>
      <class name="com.DriverProfile.TC001_Post_DriverRegistration"></class>
+     <class name="com.DriverProfile.TC002_Post_DriverVerify"></class>
+     <class name="com.DriverProfile.TC003_GetDriverID"></class>
+     <class name="com.DriverProfile.TC004_GetDriverUserNM"></class>
     </classes>
     
   </test>

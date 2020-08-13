@@ -88,7 +88,7 @@ public class TC004_GetDriverUserNM extends TestBase{
 	}
   @AfterMethod
   public void tearDown(ITestResult result) {
-  	  logger.info("***************Finished TC001_GET_USER_NOTIFICATION************************");
+	  logger.info("***************Finished TC004_GET_Driver_USERNM************************");
   	  if(result.getStatus()==ITestResult.FAILURE)
   	  {
   		  //test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+ "FAILED ", ExtentColor.RED));
