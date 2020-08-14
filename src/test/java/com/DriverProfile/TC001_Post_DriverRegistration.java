@@ -103,7 +103,7 @@ public class TC001_Post_DriverRegistration extends TestBase{
 	 Helper.verify_Date();
 	}
 	@Test(priority = 2)
- 	 public static void post_New_Users() throws JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
+ 	 public static void post_New_DriverRegister() throws JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
 	 
 	 logger.info("**************Started TC001_POST_Request__DriverRegistration***************");
 	 Constant.read_Constant();
