@@ -71,7 +71,7 @@ public class TC002_Post_DriverVerify extends TestBase {
   
   @Test(priority = 2)
   public static void post_drierVerify_Valid_UNM_PWD() throws JSONException, ParseException {
-	  logger.info("**************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************");
+	  	logger.info("**************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************");
 	  	Constant.read_Constant();
 		 RestAssured.baseURI=Constant.post_DriverVerify;
 		 httpRequest=RestAssured.given();

@@ -19,6 +19,8 @@ public class Constant {
 	public static String get_DriverID_Resources=" ";
 	public static String get_DriverUNM=" ";
 	public static String get_DriverUNM_Resources=" ";
+	public static String patch_DriverPinCode=" ";
+	public static String patch_DriverPinCode_Resources="";
 	
 	public static void read_Constant()
 	{
@@ -41,7 +43,9 @@ public class Constant {
 			get_DriverID=pro.getProperty("get_Driver_ID");
 			get_DriverID_Resources=pro.getProperty("get_Driver_ID_Resources");
 			get_DriverUNM=pro.getProperty("get_Driver_UNM");
-			get_DriverUNM_Resources=pro.getProperty("get_Driver_UNM_resources");
+			get_DriverUNM_Resources=pro.getProperty("get_Driver_UNM_Resources");
+			patch_DriverPinCode=pro.getProperty("patch_Driver_PinCode");
+			patch_DriverPinCode_Resources=pro.getProperty("patch_Driver_PinCode_Resources");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
