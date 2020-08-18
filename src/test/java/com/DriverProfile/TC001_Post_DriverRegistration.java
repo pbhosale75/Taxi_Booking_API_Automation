@@ -36,7 +36,7 @@ public class TC001_Post_DriverRegistration extends TestBase{
 	//
 	
 	@Test(priority = 0)
-	 public static void post_DriveRegi_EmptyDate() throws JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
+	 public static void post_DriveRegi_EmptyData() throws JsonParseException, JsonMappingException, IOException, ParseException, JSONException {
 	 
 	 logger.info("**************Started TC001_POST_Request__DriverRegistration Do not pass values for below fields in POST request***************");
 	 Constant.read_Constant();

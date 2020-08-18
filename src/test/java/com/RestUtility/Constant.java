@@ -21,6 +21,10 @@ public class Constant {
 	public static String get_DriverUNM_Resources=" ";
 	public static String patch_DriverPinCode=" ";
 	public static String patch_DriverPinCode_Resources="";
+	public static String patch_DriverPassWord=" ";
+	public static String patch_DriverPassWord_Resources=" ";
+	public static String passenger_Registration_Post=" ";
+	public static String passenger_Registration_Post_Resource=" ";
 	
 	public static void read_Constant()
 	{
@@ -46,6 +50,10 @@ public class Constant {
 			get_DriverUNM_Resources=pro.getProperty("get_Driver_UNM_Resources");
 			patch_DriverPinCode=pro.getProperty("patch_Driver_PinCode");
 			patch_DriverPinCode_Resources=pro.getProperty("patch_Driver_PinCode_Resources");
+			patch_DriverPassWord=pro.getProperty("patch_Driver_PWD");
+			patch_DriverPassWord_Resources=pro.getProperty("patch_Driver_PWD_Resources");
+			passenger_Registration_Post=pro.getProperty("post_Passenger_Registration");
+			passenger_Registration_Post_Resource=pro.getProperty("post_PassengerRegistration_Resources");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
