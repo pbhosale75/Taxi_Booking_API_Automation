@@ -144,7 +144,7 @@ public class Helper extends TestBase{
 		  Assert.assertEquals(LPinCode, excel.getCellData("driver_Post_ValidationData", 8, 1));
 		  test.log(Status.PASS, LPinCode);
 		  String VehAval=js.getString("vehicleAvailablity");
-		  Assert.assertEquals(VehAval, excel.getData("driver_Post_ValidationData", 9, 1));
+		  Assert.assertEquals(VehAval, excel.getData("driver_Post_ValidationData", 9, 2));
 		  test.log(Status.PASS, VehAval);
 		 /* String VehRegNo=js.getString("vehicleRegNumber");
 		  Assert.assertEquals(VehRegNo, excel.getCellData("driver_Post_ValidationData", 10, 1));
@@ -193,7 +193,7 @@ public class Helper extends TestBase{
 		  //test=extent.createTest("checkStatus_Code", "Not Found");
 		  String str=String.valueOf(status_Code);
 		  test.createNode(str);
-		  Assert.assertEquals(status_Code, 400,"Unauthorized Request Found");
+		  Assert.assertEquals(status_Code, 401,"Unauthorized Request Found");
 		  //Assert.assertFalse(false);
 		  test=extent.createTest("“Unauthorized Request Found”: “OPERATION_Un_SUCCESS”,“401 for (Unauthorized Request Found content)”: “Operation completed Un_successfully”");
 	  } 

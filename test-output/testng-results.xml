@@ -1,51 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7087" started-at="2020-08-14T14:54:28Z" finished-at="2020-08-14T14:54:35Z">
+  <suite name="Default suite" duration-ms="4591" started-at="2020-08-18T14:47:53Z" finished-at="2020-08-18T14:47:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7087" started-at="2020-08-14T14:54:28Z" finished-at="2020-08-14T14:54:35Z">
-      <class name="com.DriverProfile.TC005_PATCH_LocationPINCode">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="setup" is-config="true" duration-ms="138" started-at="2020-08-14T20:24:28Z" finished-at="2020-08-14T20:24:28Z">
+    <test name="Default test" duration-ms="4591" started-at="2020-08-18T14:47:53Z" finished-at="2020-08-18T14:47:58Z">
+      <class name="com.PassengerProfile.TC001_Post_PassengerRegisteration">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassengerProfile.TC001_Post_PassengerRegisteration@4c178a76]" name="setup" is-config="true" duration-ms="310" started-at="2020-08-18T20:17:53Z" finished-at="2020-08-18T20:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="post_drierVerify_Valid_UNM_PWD" duration-ms="5089" started-at="2020-08-14T20:24:28Z" finished-at="2020-08-14T20:24:33Z">
+        <test-method status="PASS" signature="post_PassengerRegi_EmptyData()[pri:0, instance:com.PassengerProfile.TC001_Post_PassengerRegisteration@4c178a76]" name="post_PassengerRegi_EmptyData" duration-ms="4256" started-at="2020-08-18T20:17:53Z" finished-at="2020-08-18T20:17:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- post_drierVerify_Valid_UNM_PWD -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="tearDown" is-config="true" duration-ms="16" started-at="2020-08-14T20:24:33Z" finished-at="2020-08-14T20:24:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=post_drierVerify_Valid_UNM_PWD status=SUCCESS method=TC005_PATCH_LocationPINCode.post_drierVerify_Valid_UNM_PWD()[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="patch_UpdateDriverLocPINCODE()[pri:1, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="patch_UpdateDriverLocPINCODE" duration-ms="205" started-at="2020-08-14T20:24:33Z" finished-at="2020-08-14T20:24:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- patch_UpdateDriverLocPINCODE -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-08-14T20:24:33Z" finished-at="2020-08-14T20:24:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=patch_UpdateDriverLocPINCODE status=SUCCESS method=TC005_PATCH_LocationPINCode.patch_UpdateDriverLocPINCODE()[pri:1, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.DriverProfile.TC005_PATCH_LocationPINCode@d35dea7]" name="endReport" is-config="true" duration-ms="1616" started-at="2020-08-14T20:24:33Z" finished-at="2020-08-14T20:24:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.DriverProfile.TC005_PATCH_LocationPINCode -->
+        </test-method> <!-- post_PassengerRegi_EmptyData -->
+      </class> <!-- com.PassengerProfile.TC001_Post_PassengerRegisteration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
