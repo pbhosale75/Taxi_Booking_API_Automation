@@ -2087,3 +2087,50 @@
 2020-08-18 20:17:58,041 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:296 - Content Type==>text/plain; charset=utf-8
 2020-08-18 20:17:58,042 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:377 - **************Checking Server Date Time**************
 2020-08-18 20:17:58,049 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:380 - Server Response Time==>0
+2020-08-19 16:58:17,693 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:16 - **************Started TC001_POST_Request__PassengerRegistration Do not pass values for below fields in POST request***************
+2020-08-21 12:50:04,790 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:16 - **************Started TC001_POST_Request__PassengerRegistration Do not pass values for below fields in POST request***************
+2020-08-21 12:50:12,928 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-21 12:50:12,972 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>Invalid request
+2020-08-21 12:50:12,977 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-21 12:50:12,978 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>404
+2020-08-21 12:50:12,984 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:242 - **************Checking Response Time**************
+2020-08-21 12:50:12,986 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:245 - Response Time==>4692
+2020-08-21 12:50:12,987 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:250 - Response time is Gretter than 2000
+2020-08-21 12:50:49,265 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:16 - **************Started TC001_POST_Request__PassengerRegistration Do not pass values for below fields in POST request***************
+2020-08-21 12:50:54,237 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-21 12:50:54,262 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>Invalid request
+2020-08-21 12:50:54,266 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-21 12:50:54,266 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>404
+2020-08-21 12:50:54,270 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:242 - **************Checking Response Time**************
+2020-08-21 12:50:54,270 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:245 - Response Time==>2650
+2020-08-21 12:50:54,271 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:250 - Response time is Gretter than 2000
+2020-08-21 12:50:54,271 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:257 - **************Checking Status Line**************
+2020-08-21 12:50:54,272 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:260 - Status line==>HTTP/1.1 404 Not Found
+2020-08-21 12:50:54,272 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:293 - **************Checking Content Type**************
+2020-08-21 12:50:54,273 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:296 - Content Type==>text/plain; charset=utf-8
+2020-08-21 12:50:54,273 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:377 - **************Checking Server Date Time**************
+2020-08-21 12:50:54,279 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:380 - Server Response Time==>0
+2020-08-21 13:10:53,632 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:16 - **************Started TC001_POST_Request__PassengerRegistration Do not pass values for below fields in POST request***************
+2020-08-21 13:10:58,599 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-21 13:10:58,623 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>Invalid request
+2020-08-21 13:10:58,626 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-21 13:10:58,626 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>404
+2020-08-21 13:10:58,630 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:242 - **************Checking Response Time**************
+2020-08-21 13:10:58,631 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:245 - Response Time==>3038
+2020-08-21 13:10:58,631 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:250 - Response time is Gretter than 2000
+2020-08-21 14:01:37,864 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:16 - **************Started TC001_POST_Request__PassengerRegistration Do not pass values for below fields in POST request***************
+2020-08-21 14:01:41,920 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:44 - **************Checking Response Body**************
+2020-08-21 14:01:41,942 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:49 - Response Body==>Invalid request
+2020-08-21 14:01:41,945 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:157 - **************Checking Status Code**************
+2020-08-21 14:01:41,945 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:160 - Status Code==>404
+2020-08-21 14:01:41,948 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:242 - **************Checking Response Time**************
+2020-08-21 14:01:41,949 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:245 - Response Time==>2385
+2020-08-21 14:01:41,949 {yyyy-MM-dd HH:mm:ss} WARN  UsersRestAPI:250 - Response time is Gretter than 2000
+2020-08-21 14:01:41,950 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:257 - **************Checking Status Line**************
+2020-08-21 14:01:41,950 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:260 - Status line==>HTTP/1.1 404 Not Found
+2020-08-21 14:01:41,950 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:293 - **************Checking Content Type**************
+2020-08-21 14:01:41,951 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:296 - Content Type==>text/plain; charset=utf-8
+2020-08-21 14:01:41,951 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:377 - **************Checking Server Date Time**************
+2020-08-21 14:01:41,956 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:380 - Server Response Time==>0
+2020-12-30 20:30:52,018 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:29 - **************Started TC002_POST_Request__DriverVerify Do  pass Valid values for below fields in POST request***************
+2020-12-30 20:31:00,449 {yyyy-MM-dd HH:mm:ss} INFO  UsersRestAPI:92 - ***************Finished TC003_GET_Driver_ID************************

@@ -3,7 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.PassengerProfile.TC001_Post_PassengerRegisteration"/>
+      <class name="com.DriverProfile.TC003_GetDriverID"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.DriverProfile.TC003_GetDriverID">
+        <methods>
+          <include name="verify_GetReqByDriverID"/>
+          <include name="post_drierVerify_Valid_UNM_PWD"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DriverProfile.TC003_GetDriverID -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
